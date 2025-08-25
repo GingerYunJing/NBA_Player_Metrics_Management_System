@@ -1,0 +1,627 @@
+PERSON_ID,PLAYER_NAME,SEASON,ROUND_NUMBER,ROUND_PICK,OVERALL_PICK,DRAFT_TYPE,TEAM_ID,TEAM_CITY,TEAM_NAME,TEAM_ABBREVIATION,ORGANIZATION,ORGANIZATION_TYPE,PLAYER_PROFILE_FLAG
+2544,LeBron James,2003,1,1,1,Draft,1610612739,Cleveland,Cavaliers,CLE,Saint Vincent-Saint Mary,High School,1
+2545,Darko Milicic,2003,1,2,2,Draft,1610612765,Detroit,Pistons,DET,KK Vrsac (Serbia),Other Team/Club,1
+2546,Carmelo Anthony,2003,1,3,3,Draft,1610612743,Denver,Nuggets,DEN,Syracuse,College/University,1
+2547,Chris Bosh,2003,1,4,4,Draft,1610612761,Toronto,Raptors,TOR,Georgia Tech,College/University,1
+2550,Kirk Hinrich,2003,1,7,7,Draft,1610612741,Chicago,Bulls,CHI,Kansas,College/University,1
+2551,T.J. Ford,2003,1,8,8,Draft,1610612749,Milwaukee,Bucks,MIL,Texas,College/University,1
+2556,Marcus Banks,2003,1,13,13,Draft,1610612763,Memphis,Grizzlies,MEM,Nevada-Las Vegas,College/University,1
+2558,Reece Gaines,2003,1,15,15,Draft,1610612753,Orlando,Magic,ORL,Louisville,College/University,1
+2564,Boris Diaw,2003,1,21,21,Draft,1610612737,Atlanta,Hawks,ATL,Elan Bearnais Pau-Orthez (France),Other Team/Club,1
+2565,Zoran Planinic,2003,1,22,22,Draft,1610612751,New Jersey,Nets,NJN,KK Cibona (Croatia),Other Team/Club,1
+2566,Travis Outlaw,2003,1,23,23,Draft,1610612757,Portland,Trail Blazers,POR,Starkville,High School,1
+2567,Brian Cook,2003,1,24,24,Draft,1610612747,Los Angeles,Lakers,LAL,Illinois,College/University,1
+2568,Carlos Delfino,2003,1,25,25,Draft,1610612765,Detroit,Pistons,DET,Fortitudo Pallacanestro Bologna (Italy),Other Team/Club,1
+2570,Kendrick Perkins,2003,1,27,27,Draft,1610612763,Memphis,Grizzlies,MEM,Clifton J. Ozen,High School,1
+2571,Leandro Barbosa,2003,1,28,28,Draft,1610612759,San Antonio,Spurs,SAS,Associacao Bauru Basketball Team (Brazil),Other Team/Club,1
+2574,Jason Kapono,2003,2,2,31,Draft,1610612739,Cleveland,Cavaliers,CLE,California-Los Angeles,College/University,1
+2575,Luke Walton,2003,2,3,32,Draft,1610612747,Los Angeles,Lakers,LAL,Arizona,College/University,1
+2578,Szymon Szewczyk,2003,2,6,35,Draft,1610612749,Milwaukee,Bucks,MIL,Basketball Lowen Braunschweig (Germany),Other Team/Club,0
+2579,Mario Austin,2003,2,7,36,Draft,1610612741,Chicago,Bulls,CHI,Mississippi State,College/University,0
+2580,Travis Hansen,2003,2,8,37,Draft,1610612737,Atlanta,Hawks,ATL,Brigham Young,College/University,1
+2585,Zaza Pachulia,2003,2,13,42,Draft,1610612753,Orlando,Magic,ORL,Ulkerspor (Turkey),Other Team/Club,1
+2586,Keith Bogans,2003,2,14,43,Draft,1610612749,Milwaukee,Bucks,MIL,Kentucky,College/University,1
+2587,Malick Badiane,2003,2,15,44,Draft,1610612745,Houston,Rockets,HOU,TV Langen (Germany),Other Team/Club,1
+2588,Matt Bonner,2003,2,16,45,Draft,1610612741,Chicago,Bulls,CHI,Florida,College/University,1
+2589,Sani Becirovic,2003,2,17,46,Draft,1610612743,Denver,Nuggets,DEN,Virtus Pallacanestro Bologna (Italy),Other Team/Club,1
+2593,Paccelis Morlende,2003,2,21,50,Draft,1610612755,Philadelphia,76ers,PHI,JDA Dijon Basket (France),Other Team/Club,0
+2594,Kyle Korver,2003,2,22,51,Draft,1610612751,New Jersey,Nets,NJN,Creighton,College/University,1
+2595,Remon Van de Hare,2003,2,23,52,Draft,1610612761,Toronto,Raptors,TOR,FC Barcelona Basquet (Spain),Other Team/Club,0
+2596,Tommy Smith,2003,2,24,53,Draft,1610612741,Chicago,Bulls,CHI,Arizona State,College/University,1
+2597,Nedzad Sinanovic,2003,2,25,54,Draft,1610612757,Portland,Trail Blazers,POR,HKK Brotnjo (Bosnia and Herzegovina),Other Team/Club,0
+2601,Andreas Glyniadakis,2003,2,29,58,Draft,1610612765,Detroit,Pistons,DET,A.E.K. Athens B.C. (Greece),Other Team/Club,1
+2730,Dwight Howard,2004,1,1,1,Draft,1610612753,Orlando,Magic,ORL,Southwest Atlanta Christian Academy,High School,1
+2732,Ben Gordon,2004,1,3,3,Draft,1610612741,Chicago,Bulls,CHI,Connecticut,College/University,1
+2735,Josh Childress,2004,1,6,6,Draft,1610612737,Atlanta,Hawks,ATL,Stanford,College/University,1
+2737,Rafael Araujo,2004,1,8,8,Draft,1610612761,Toronto,Raptors,TOR,Brigham Young,College/University,1
+2738,Andre Iguodala,2004,1,9,9,Draft,1610612755,Philadelphia,76ers,PHI,Arizona,College/University,1
+2739,Luke Jackson,2004,1,10,10,Draft,1610612739,Cleveland,Cavaliers,CLE,Oregon,College/University,1
+2742,Sebastian Telfair,2004,1,13,13,Draft,1610612757,Portland,Trail Blazers,POR,Abraham Lincoln,High School,1
+2746,Josh Smith,2004,1,17,17,Draft,1610612737,Atlanta,Hawks,ATL,Oak Hill Academy,High School,1
+2749,Jameer Nelson,2004,1,20,20,Draft,1610612743,Denver,Nuggets,DEN,Saint Joseph's,College/University,1
+2751,Viktor Khryapa,2004,1,22,22,Draft,1610612751,New Jersey,Nets,NJN,PBC CSKA Moscow (Russia),Other Team/Club,1
+2752,Sergei Monia,2004,1,23,23,Draft,1610612757,Portland,Trail Blazers,POR,PBC CSKA Moscow (Russia),Other Team/Club,1
+2756,Sasha Vujacic,2004,1,27,27,Draft,1610612747,Los Angeles,Lakers,LAL,Pallalcesto Amatori Udine (Italy),Other Team/Club,1
+2757,Beno Udrih,2004,1,28,28,Draft,1610612759,San Antonio,Spurs,SAS,Olimpia Milano (Italy),Other Team/Club,1
+2760,Anderson Varejao,2004,2,1,30,Draft,1610612753,Orlando,Magic,ORL,FC Barcelona Basquet (Spain),Other Team/Club,1
+2761,Jackson Vroman,2004,2,2,31,Draft,1610612741,Chicago,Bulls,CHI,Iowa State,College/University,1
+2764,Donta Smith,2004,2,5,34,Draft,1610612737,Atlanta,Hawks,ATL,Southeastern Illinois,College/University,1
+2766,Antonio Burks,2004,2,7,36,Draft,1610612753,Orlando,Magic,ORL,Memphis,College/University,1
+2767,Royal Ivey,2004,2,8,37,Draft,1610612737,Atlanta,Hawks,ATL,Brigham Young,College/University,1
+2768,Chris Duhon,2004,2,9,38,Draft,1610612741,Chicago,Bulls,CHI,Duke,College/University,1
+2769,Albert Miralles,2004,2,10,39,Draft,1610612761,Toronto,Raptors,TOR,Roseto Sharks (Italy),Other Team/Club,0
+2771,Viktor Sanikidze,2004,2,13,42,Draft,1610612737,Atlanta,Hawks,ATL,JDA Dijon Basket (France),Other Team/Club,0
+2775,Ha Ha,2004,2,17,46,Draft,1610612757,Portland,Trail Blazers,POR,Yonsei (KOR),College/University,1
+2778,Sergei Lishouk,2004,2,20,49,Draft,1610612763,Memphis,Grizzlies,MEM,Miami (FL),College/University,0
+2780,Christian Drejer,2004,2,22,51,Draft,1610612751,New Jersey,Nets,NJN,FC Barcelona Basquet (Spain),Other Team/Club,0
+2781,Romain Sato,2004,2,23,52,Draft,1610612759,San Antonio,Spurs,SAS,Xavier,College/University,1
+2783,Rickey Paulding,2004,2,25,54,Draft,1610612765,Detroit,Pistons,DET,Missouri,College/University,0
+2784,Luis Flores,2004,2,26,55,Draft,1610612745,Houston,Rockets,HOU,Manhattan,College/University,1
+2785,Marcus Douthit,2004,2,27,56,Draft,1610612747,Los Angeles,Lakers,LAL,Providence,College/University,0
+2807,Sergei Karaulov,2004,2,28,57,Draft,1610612759,San Antonio,Spurs,SAS,Sakha-Yakutia Yakutsk (Russia),Other Team/Club,0
+101106,Andrew Bogut,2005,1,1,1,Draft,1610612749,Milwaukee,Bucks,MIL,Utah,College/University,1
+101107,Marvin Williams,2005,1,2,2,Draft,1610612737,Atlanta,Hawks,ATL,North Carolina,College/University,1
+101110,Martell Webster,2005,1,6,6,Draft,1610612757,Portland,Trail Blazers,POR,Seattle Preparatory School,High School,1
+101111,Charlie Villanueva,2005,1,7,7,Draft,1610612761,Toronto,Raptors,TOR,Connecticut,College/University,1
+101115,Andrew Bynum,2005,1,10,10,Draft,1610612747,Los Angeles,Lakers,LAL,Saint Joseph,High School,1
+101116,Fran Vazquez,2005,1,11,11,Draft,1610612753,Orlando,Magic,ORL,Baloncesto Malaga (Spain),Other Team/Club,0
+101120,Antoine Wright,2005,1,15,15,Draft,1610612751,New Jersey,Nets,NJN,Texas A&M,College/University,1
+101121,Joey Graham,2005,1,16,16,Draft,1610612761,Toronto,Raptors,TOR,Oklahoma State,College/University,1
+101124,Hakim Warrick,2005,1,19,19,Draft,1610612763,Memphis,Grizzlies,MEM,Syracuse,College/University,1
+101125,Julius Hodge,2005,1,20,20,Draft,1610612743,Denver,Nuggets,DEN,North Carolina State,College/University,1
+101127,Jarrett Jack,2005,1,22,22,Draft,1610612743,Denver,Nuggets,DEN,Georgia Tech,College/University,1
+101129,Luther Head,2005,1,24,24,Draft,1610612745,Houston,Rockets,HOU,Illinois,College/University,1
+101131,Jason Maxiell,2005,1,26,26,Draft,1610612765,Detroit,Pistons,DET,Cincinnati,College/University,1
+101132,Linas Kleiza,2005,1,27,27,Draft,1610612757,Portland,Trail Blazers,POR,Missouri,College/University,1
+101133,Ian Mahinmi,2005,1,28,28,Draft,1610612759,San Antonio,Spurs,SAS,STB Le Havre (France),Other Team/Club,1
+101136,Salim Stoudamire,2005,2,1,31,Draft,1610612737,Atlanta,Hawks,ATL,Arizona,College/University,1
+101140,Ricky Sanchez,2005,2,5,35,Draft,1610612757,Portland,Trail Blazers,POR,IMG Academy,High School,0
+101141,Ersan Ilyasova,2005,2,6,36,Draft,1610612749,Milwaukee,Bucks,MIL,Ulkerspor (Turkey),Other Team/Club,1
+101142,Ronny Turiaf,2005,2,7,37,Draft,1610612747,Los Angeles,Lakers,LAL,Gonzaga,College/University,1
+101143,Travis Diener,2005,2,8,38,Draft,1610612753,Orlando,Magic,ORL,Marquette,College/University,1
+101144,Von Wafer,2005,2,9,39,Draft,1610612747,Los Angeles,Lakers,LAL,Florida State,College/University,1
+101146,Roko Ukic,2005,2,11,41,Draft,1610612761,Toronto,Raptors,TOR,KK Split (Croatia),Other Team/Club,1
+101148,Mile Ilic,2005,2,13,43,Draft,1610612751,New Jersey,Nets,NJN,KK FMP (Serbia),Other Team/Club,1
+101149,Martynas Andriuskevicius,2005,2,14,44,Draft,1610612753,Orlando,Magic,ORL,BC Zalgiris (Lithuania),Other Team/Club,1
+101150,Lou Williams,2005,2,15,45,Draft,1610612755,Philadelphia,76ers,PHI,South Gwinnett,High School,1
+101157,Axel Hervelle,2005,2,22,52,Draft,1610612743,Denver,Nuggets,DEN,Real Madrid Baloncesto (Spain),Other Team/Club,0
+101161,Amir Johnson,2005,2,26,56,Draft,1610612765,Detroit,Pistons,DET,Westchester,High School,1
+101166,Uros Slokar,2005,2,28,58,Draft,1610612761,Toronto,Raptors,TOR,Pallalcesto Amatori Udine (Italy),Other Team/Club,1
+101164,Cenk Akyol,2005,2,29,59,Draft,1610612737,Atlanta,Hawks,ATL,Anadolu Efes S.K. (Turkey),Other Team/Club,0
+101165,Alex Acker,2005,2,30,60,Draft,1610612765,Detroit,Pistons,DET,Pepperdine,College/University,1
+200745,Andrea Bargnani,2006,1,1,1,Draft,1610612761,Toronto,Raptors,TOR,Universo Treviso Basket (Italy),Other Team/Club,1
+200746,LaMarcus Aldridge,2006,1,2,2,Draft,1610612741,Chicago,Bulls,CHI,Texas,College/University,1
+200748,Tyrus Thomas,2006,1,4,4,Draft,1610612757,Portland,Trail Blazers,POR,Louisiana State,College/University,1
+200749,Shelden Williams,2006,1,5,5,Draft,1610612737,Atlanta,Hawks,ATL,Duke,College/University,1
+200752,Rudy Gay,2006,1,8,8,Draft,1610612745,Houston,Rockets,HOU,Connecticut,College/University,1
+200755,JJ Redick,2006,1,11,11,Draft,1610612753,Orlando,Magic,ORL,Duke,College/University,1
+200757,Thabo Sefolosha,2006,1,13,13,Draft,1610612755,Philadelphia,76ers,PHI,Pallacanestro Biella (Italy),Other Team/Club,1
+200760,Rodney Carney,2006,1,16,16,Draft,1610612741,Chicago,Bulls,CHI,Memphis,College/University,1
+200766,Marcus Williams,2006,1,22,22,Draft,1610612751,New Jersey,Nets,NJN,Connecticut,College/University,1
+200767,Josh Boone,2006,1,23,23,Draft,1610612751,New Jersey,Nets,NJN,Connecticut,College/University,1
+200768,Kyle Lowry,2006,1,24,24,Draft,1610612763,Memphis,Grizzlies,MEM,Villanova,College/University,1
+200769,Shannon Brown,2006,1,25,25,Draft,1610612739,Cleveland,Cavaliers,CLE,Michigan State,College/University,1
+200770,Jordan Farmar,2006,1,26,26,Draft,1610612747,Los Angeles,Lakers,LAL,California-Los Angeles,College/University,1
+200777,Joel Freeland,2006,1,30,30,Draft,1610612757,Portland,Trail Blazers,POR,CB Gran Canaria (Spain),Other Team/Club,1
+200778,James White,2006,2,1,31,Draft,1610612757,Portland,Trail Blazers,POR,Cincinnati,College/University,1
+200779,Steve Novak,2006,2,2,32,Draft,1610612745,Houston,Rockets,HOU,Marquette,College/University,1
+200780,Solomon Jones,2006,2,3,33,Draft,1610612737,Atlanta,Hawks,ATL,South Florida,College/University,1
+200782,P.J. Tucker,2006,2,5,35,Draft,1610612761,Toronto,Raptors,TOR,Texas,College/University,1
+200786,David Noel,2006,2,9,39,Draft,1610612749,Milwaukee,Bucks,MIL,North Carolina,College/University,1
+200788,James Augustine,2006,2,11,41,Draft,1610612753,Orlando,Magic,ORL,Illinois,College/University,1
+200789,Daniel Gibson,2006,2,12,42,Draft,1610612739,Cleveland,Cavaliers,CLE,Texas,College/University,1
+200791,Lior Eliyahu,2006,2,14,44,Draft,1610612753,Orlando,Magic,ORL,Hapoel Galil Elyon (Israel),Other Team/Club,0
+200796,Leon Powe,2006,2,19,49,Draft,1610612743,Denver,Nuggets,DEN,California,College/University,1
+200798,Cheikh Samb,2006,2,21,51,Draft,1610612747,Los Angeles,Lakers,LAL,CB Cornella (Spain),Other Team/Club,1
+200801,Hassan Adams,2006,2,24,54,Draft,1610612751,New Jersey,Nets,NJN,Arizona,College/University,1
+200802,Ejike Ugboaja,2006,2,25,55,Draft,1610612739,Cleveland,Cavaliers,CLE,Union Bank Lagos B.C. (Nigeria),Other Team/Club,0
+200803,Edin Bavcic,2006,2,26,56,Draft,1610612761,Toronto,Raptors,TOR,KK Bosna Royal (Bosnia and Herzegovina),Other Team/Club,0
+200806,Damir Markota,2006,2,29,59,Draft,1610612759,San Antonio,Spurs,SAS,KK Cibona (Croatia),Other Team/Club,1
+200807,Will Blalock,2006,2,30,60,Draft,1610612765,Detroit,Pistons,DET,Iowa State,College/University,1
+201141,Greg Oden,2007,1,1,1,Draft,1610612757,Portland,Trail Blazers,POR,Ohio State,College/University,1
+201143,Al Horford,2007,1,3,3,Draft,1610612737,Atlanta,Hawks,ATL,Florida,College/University,1
+201144,Mike Conley,2007,1,4,4,Draft,1610612763,Memphis,Grizzlies,MEM,Ohio State,College/University,1
+201146,Yi Jianlian,2007,1,6,6,Draft,1610612749,Milwaukee,Bucks,MIL,Guangdong Southern Tigers (China),Other Team/Club,1
+201149,Joakim Noah,2007,1,9,9,Draft,1610612741,Chicago,Bulls,CHI,Florida,College/University,1
+201151,Acie Law,2007,1,11,11,Draft,1610612737,Atlanta,Hawks,ATL,Texas A&M,College/University,1
+201152,Thaddeus Young,2007,1,12,12,Draft,1610612755,Philadelphia,76ers,PHI,Georgia Tech,College/University,1
+201155,Rodney Stuckey,2007,1,15,15,Draft,1610612765,Detroit,Pistons,DET,Eastern Washington,College/University,1
+201157,Sean Williams,2007,1,17,17,Draft,1610612751,New Jersey,Nets,NJN,Boston College,College/University,1
+201159,Javaris Crittenton,2007,1,19,19,Draft,1610612747,Los Angeles,Lakers,LAL,Georgia Tech,College/University,1
+201161,Daequan Cook,2007,1,21,21,Draft,1610612755,Philadelphia,76ers,PHI,Ohio State,College/University,1
+201166,Aaron Brooks,2007,1,26,26,Draft,1610612745,Houston,Rockets,HOU,Oregon,College/University,1
+201167,Arron Afflalo,2007,1,27,27,Draft,1610612765,Detroit,Pistons,DET,California-Los Angeles,College/University,1
+201168,Tiago Splitter,2007,1,28,28,Draft,1610612759,San Antonio,Spurs,SAS,Saski Baskonia (Spain),Other Team/Club,1
+201170,Petteri Koponen,2007,1,30,30,Draft,1610612755,Philadelphia,76ers,PHI,Espoon Honka (Finland),Other Team/Club,0
+201173,Marcus Williams,2007,2,3,33,Draft,1610612759,San Antonio,Spurs,SAS,Arizona,College/University,1
+201177,Josh McRoberts,2007,2,7,37,Draft,1610612757,Portland,Trail Blazers,POR,Duke,College/University,1
+201178,Kyrylo Fesenko,2007,2,8,38,Draft,1610612755,Philadelphia,76ers,PHI,Cherkaski Mavpy (Ukraine),Other Team/Club,1
+201180,Sun Sun,2007,2,10,40,Draft,1610612747,Los Angeles,Lakers,LAL,Beijing Olympians (China),Other Team/Club,1
+201182,Derrick Byars,2007,2,12,42,Draft,1610612757,Portland,Trail Blazers,POR,Vanderbilt,College/University,1
+201184,Reyshawn Terry,2007,2,14,44,Draft,1610612753,Orlando,Magic,ORL,North Carolina,College/University,1
+201188,Marc Gasol,2007,2,18,48,Draft,1610612747,Los Angeles,Lakers,LAL,CB Sant Josep (Spain),Other Team/Club,1
+201189,Aaron Gray,2007,2,19,49,Draft,1610612741,Chicago,Bulls,CHI,Pittsburgh,College/University,1
+201191,JamesOn Curry,2007,2,21,51,Draft,1610612741,Chicago,Bulls,CHI,Oklahoma State,College/University,1
+201192,Taurean Green,2007,2,22,52,Draft,1610612757,Portland,Trail Blazers,POR,Florida,College/University,1
+201193,Demetris Nichols,2007,2,23,53,Draft,1610612757,Portland,Trail Blazers,POR,Syracuse,College/University,1
+201194,Brad Newley,2007,2,24,54,Draft,1610612745,Houston,Rockets,HOU,Townsville Crocodiles (Australia),Other Team/Club,0
+201196,Ramon Sessions,2007,2,26,56,Draft,1610612749,Milwaukee,Bucks,MIL,Nevada-Reno,College/University,1
+201197,Sammy Mejia,2007,2,27,57,Draft,1610612765,Detroit,Pistons,DET,DePaul,College/University,1
+201198,Giorgos Printezis,2007,2,28,58,Draft,1610612759,San Antonio,Spurs,SAS,Olympiacos B.C. (Greece),Other Team/Club,0
+201565,Derrick Rose,2008,1,1,1,Draft,1610612741,Chicago,Bulls,CHI,Memphis,College/University,1
+201567,Kevin Love,2008,1,5,5,Draft,1610612763,Memphis,Grizzlies,MEM,California-Los Angeles,College/University,1
+201570,Joe Alexander,2008,1,8,8,Draft,1610612749,Milwaukee,Bucks,MIL,West Virginia,College/University,1
+201572,Brook Lopez,2008,1,10,10,Draft,1610612751,New Jersey,Nets,NJN,Stanford,College/University,1
+201575,Brandon Rush,2008,1,13,13,Draft,1610612757,Portland,Trail Blazers,POR,Kansas,College/University,1
+201578,Marreese Speights,2008,1,16,16,Draft,1610612755,Philadelphia,76ers,PHI,Florida,College/University,1
+201579,Roy Hibbert,2008,1,17,17,Draft,1610612761,Toronto,Raptors,TOR,Georgetown,College/University,1
+201581,JJ Hickson,2008,1,19,19,Draft,1610612739,Cleveland,Cavaliers,CLE,North Carolina State,College/University,1
+201583,Ryan Anderson,2008,1,21,21,Draft,1610612751,New Jersey,Nets,NJN,California,College/University,1
+201584,Courtney Lee,2008,1,22,22,Draft,1610612753,Orlando,Magic,ORL,Western Kentucky,College/University,1
+201587,Nicolas Batum,2008,1,25,25,Draft,1610612745,Houston,Rockets,HOU,Le Mans Sarthe Basket (France),Other Team/Club,1
+201588,George Hill,2008,1,26,26,Draft,1610612759,San Antonio,Spurs,SAS,IUPUI,College/University,1
+201590,Donte Greene,2008,1,28,28,Draft,1610612763,Memphis,Grizzlies,MEM,Syracuse,College/University,1
+201591,DJ White,2008,1,29,29,Draft,1610612765,Detroit,Pistons,DET,Indiana,College/University,1
+201595,Joey Dorsey,2008,2,3,33,Draft,1610612757,Portland,Trail Blazers,POR,Memphis,College/University,1
+201600,Omer Asik,2008,2,6,36,Draft,1610612757,Portland,Trail Blazers,POR,Fenerbahce S.K. (Turkey),Other Team/Club,1
+201601,Luc Mbah a Moute,2008,2,7,37,Draft,1610612749,Milwaukee,Bucks,MIL,California-Los Angeles,College/University,1
+201603,Sonny Weems,2008,2,9,39,Draft,1610612741,Chicago,Bulls,CHI,Arkansas,College/University,1
+201604,Chris Douglas-Roberts,2008,2,10,40,Draft,1610612751,New Jersey,Nets,NJN,Memphis,College/University,1
+201609,Goran Dragic,2008,2,15,45,Draft,1610612759,San Antonio,Spurs,SAS,KK Olimpija (Slovenia),Other Team/Club,1
+201618,Maarty Leunen,2008,2,24,54,Draft,1610612745,Houston,Rockets,HOU,Oregon,College/University,0
+201446,Mike Taylor,2008,2,25,55,Draft,1610612757,Portland,Trail Blazers,POR,Idaho Stampede (D-League),Other Team/Club,1
+201620,James Gist,2008,2,27,57,Draft,1610612759,San Antonio,Spurs,SAS,Maryland,College/University,1
+201621,Joe Crawford,2008,2,28,58,Draft,1610612747,Los Angeles,Lakers,LAL,Kentucky,College/University,1
+201622,Deron Washington,2008,2,29,59,Draft,1610612765,Detroit,Pistons,DET,Virginia Tech,College/University,1
+201934,Hasheem Thabeet,2009,1,2,2,Draft,1610612763,Memphis,Grizzlies,MEM,Connecticut,College/University,1
+201942,DeMar DeRozan,2009,1,9,9,Draft,1610612761,Toronto,Raptors,TOR,Southern California,College/University,1
+201943,Brandon Jennings,2009,1,10,10,Draft,1610612749,Milwaukee,Bucks,MIL,Pallacanestro Virtus Roma (Italy),Other Team/Club,1
+201944,Terrence Williams,2009,1,11,11,Draft,1610612751,New Jersey,Nets,NJN,Louisville,College/University,1
+201948,Austin Daye,2009,1,15,15,Draft,1610612765,Detroit,Pistons,DET,Gonzaga,College/University,1
+201949,James Johnson,2009,1,16,16,Draft,1610612741,Chicago,Bulls,CHI,Wake Forest,College/University,1
+201950,Jrue Holiday,2009,1,17,17,Draft,1610612755,Philadelphia,76ers,PHI,California-Los Angeles,College/University,1
+201952,Jeff Teague,2009,1,19,19,Draft,1610612737,Atlanta,Hawks,ATL,Wake Forest,College/University,1
+201964,Victor Claver,2009,1,22,22,Draft,1610612757,Portland,Trail Blazers,POR,Valencia BC (Spain),Other Team/Club,1
+201959,Taj Gibson,2009,1,26,26,Draft,1610612741,Chicago,Bulls,CHI,Southern California,College/University,1
+201960,DeMarre Carroll,2009,1,27,27,Draft,1610612763,Memphis,Grizzlies,MEM,Missouri,College/University,1
+201962,Toney Douglas,2009,1,29,29,Draft,1610612747,Los Angeles,Lakers,LAL,Florida State,College/University,1
+201963,Christian Eyenga,2009,1,30,30,Draft,1610612739,Cleveland,Cavaliers,CLE,CB Prat (Spain),Other Team/Club,1
+201967,Dante Cunningham,2009,2,3,33,Draft,1610612757,Portland,Trail Blazers,POR,Villanova,College/University,1
+201968,Sergio Llull,2009,2,4,34,Draft,1610612743,Denver,Nuggets,DEN,Real Madrid Baloncesto (Spain),Other Team/Club,0
+201969,DaJuan Summers,2009,2,5,35,Draft,1610612765,Detroit,Pistons,DET,Georgetown,College/University,1
+201970,Sam Young,2009,2,6,36,Draft,1610612763,Memphis,Grizzlies,MEM,Pittsburgh,College/University,1
+201971,DeJuan Blair,2009,2,7,37,Draft,1610612759,San Antonio,Spurs,SAS,Pittsburgh,College/University,1
+201972,Jon Brockman,2009,2,8,38,Draft,1610612757,Portland,Trail Blazers,POR,Washington,College/University,1
+201973,Jonas Jerebko,2009,2,9,39,Draft,1610612765,Detroit,Pistons,DET,Pallacanestro Biella (Italy),Other Team/Club,1
+201975,Jodie Meeks,2009,2,11,41,Draft,1610612749,Milwaukee,Bucks,MIL,Kentucky,College/University,1
+201976,Patrick Beverley,2009,2,12,42,Draft,1610612747,Los Angeles,Lakers,LAL,BC Dnipro (Ukraine),Other Team/Club,1
+201978,Chase Budinger,2009,2,14,44,Draft,1610612765,Detroit,Pistons,DET,Arizona,College/University,1
+201980,Danny Green,2009,2,16,46,Draft,1610612739,Cleveland,Cavaliers,CLE,North Carolina,College/University,1
+201982,Sergiy Gladyr,2009,2,19,49,Draft,1610612737,Atlanta,Hawks,ATL,MBC Mykolaiv (Ukraine),Other Team/Club,0
+201984,Jack McClinton,2009,2,21,51,Draft,1610612759,San Antonio,Spurs,SAS,Miami (FL),College/University,0
+201986,Nando De Colo,2009,2,23,53,Draft,1610612759,San Antonio,Spurs,SAS,Cholet Basket (France),Other Team/Club,1
+201988,Patty Mills,2009,2,25,55,Draft,1610612757,Portland,Trail Blazers,POR,St. Mary's (CA),College/University,1
+201992,Chinemelu Elonu,2009,2,29,59,Draft,1610612747,Los Angeles,Lakers,LAL,Texas A&M,College/University,0
+202323,Evan Turner,2010,1,2,2,Draft,1610612755,Philadelphia,76ers,PHI,Ohio State,College/University,1
+202324,Derrick Favors,2010,1,3,3,Draft,1610612751,New Jersey,Nets,NJN,Georgia Tech,College/University,1
+202328,Greg Monroe,2010,1,7,7,Draft,1610612765,Detroit,Pistons,DET,Georgetown,College/University,1
+202333,Xavier Henry,2010,1,12,12,Draft,1610612763,Memphis,Grizzlies,MEM,Kansas,College/University,1
+202334,Ed Davis,2010,1,13,13,Draft,1610612761,Toronto,Raptors,TOR,North Carolina,College/University,1
+202335,Patrick Patterson,2010,1,14,14,Draft,1610612745,Houston,Rockets,HOU,Kentucky,College/University,1
+202336,Larry Sanders,2010,1,15,15,Draft,1610612749,Milwaukee,Bucks,MIL,Virginia Commonwealth,College/University,1
+202338,Kevin Seraphin,2010,1,17,17,Draft,1610612741,Chicago,Bulls,CHI,Cholet Basket (France),Other Team/Club,1
+202341,James Anderson,2010,1,20,20,Draft,1610612759,San Antonio,Spurs,SAS,Oklahoma State,College/University,1
+202343,Elliot Williams,2010,1,22,22,Draft,1610612757,Portland,Trail Blazers,POR,Memphis,College/University,1
+202345,Damion James,2010,1,24,24,Draft,1610612737,Atlanta,Hawks,ATL,Texas,College/University,1
+202346,Dominique Jones,2010,1,25,25,Draft,1610612763,Memphis,Grizzlies,MEM,South Florida,College/University,1
+202348,Jordan Crawford,2010,1,27,27,Draft,1610612751,New Jersey,Nets,NJN,Xavier,College/University,1
+202349,Greivis Vasquez,2010,1,28,28,Draft,1610612763,Memphis,Grizzlies,MEM,Maryland,College/University,1
+202350,Daniel Orton,2010,1,29,29,Draft,1610612753,Orlando,Magic,ORL,Kentucky,College/University,1
+202353,Tibor Pleiss,2010,2,1,31,Draft,1610612751,New Jersey,Nets,NJN,Brose Baskets (Germany),Other Team/Club,1
+202356,Armon Johnson,2010,2,4,34,Draft,1610612757,Portland,Trail Blazers,POR,Nevada-Reno,College/University,1
+202358,Terrico White,2010,2,6,36,Draft,1610612765,Detroit,Pistons,DET,Mississippi,College/University,1
+202359,Darington Hobson,2010,2,7,37,Draft,1610612749,Milwaukee,Bucks,MIL,New Mexico,College/University,1
+202365,Devin Ebanks,2010,2,13,43,Draft,1610612747,Los Angeles,Lakers,LAL,West Virginia,College/University,1
+202366,Jerome Jordan,2010,2,14,44,Draft,1610612749,Milwaukee,Bucks,MIL,Tulsa,College/University,1
+202372,Tiny Gallon,2010,2,17,47,Draft,1610612749,Milwaukee,Bucks,MIL,Oklahoma,College/University,0
+202373,Ryan Richards,2010,2,19,49,Draft,1610612759,San Antonio,Spurs,SAS,CB Gran Canaria (Spain),Other Team/Club,0
+202377,Pape Sy,2010,2,23,53,Draft,1610612737,Atlanta,Hawks,ATL,STB Le Havre (France),Other Team/Club,1
+202382,Derrick Caracter,2010,2,28,58,Draft,1610612747,Los Angeles,Lakers,LAL,Texas-El Paso,College/University,1
+202383,Stanley Robinson,2010,2,29,59,Draft,1610612753,Orlando,Magic,ORL,Connecticut,College/University,1
+202681,Kyrie Irving,2011,1,1,1,Draft,1610612739,Cleveland,Cavaliers,CLE,Duke,College/University,1
+202684,Tristan Thompson,2011,1,4,4,Draft,1610612739,Cleveland,Cavaliers,CLE,Texas,College/University,1
+202685,Jonas Valanciunas,2011,1,5,5,Draft,1610612761,Toronto,Raptors,TOR,BC Lietuvos rytas (Lithuania),Other Team/Club,1
+202688,Brandon Knight,2011,1,8,8,Draft,1610612765,Detroit,Pistons,DET,Kentucky,College/University,1
+202690,Jimmer Fredette,2011,1,10,10,Draft,1610612749,Milwaukee,Bucks,MIL,Brigham Young,College/University,1
+202694,Marcus Morris Sr.,2011,1,14,14,Draft,1610612745,Houston,Rockets,HOU,Kansas,College/University,1
+202696,Nikola Vucevic,2011,1,16,16,Draft,1610612755,Philadelphia,76ers,PHI,Southern California,College/University,1
+202701,Nolan Smith,2011,1,21,21,Draft,1610612757,Portland,Trail Blazers,POR,Duke,College/University,1
+202702,Kenneth Faried,2011,1,22,22,Draft,1610612743,Denver,Nuggets,DEN,Morehead State,College/University,1
+202703,Nikola Mirotic,2011,1,23,23,Draft,1610612745,Houston,Rockets,HOU,Real Madrid Baloncesto (Spain),Other Team/Club,1
+202707,JaJuan Johnson,2011,1,27,27,Draft,1610612751,New Jersey,Nets,NJN,Purdue,College/University,1
+202708,Norris Cole,2011,1,28,28,Draft,1610612741,Chicago,Bulls,CHI,Cleveland State,College/University,1
+202709,Cory Joseph,2011,1,29,29,Draft,1610612759,San Antonio,Spurs,SAS,Texas,College/University,1
+202710,Jimmy Butler,2011,1,30,30,Draft,1610612741,Chicago,Bulls,CHI,Marquette,College/University,1
+202712,Justin Harper,2011,2,2,32,Draft,1610612739,Cleveland,Cavaliers,CLE,Richmond,College/University,1
+202713,Kyle Singler,2011,2,3,33,Draft,1610612765,Detroit,Pistons,DET,Duke,College/University,1
+202716,Jordan Williams,2011,2,6,36,Draft,1610612751,New Jersey,Nets,NJN,Maryland,College/University,1
+202718,Chandler Parsons,2011,2,8,38,Draft,1610612745,Houston,Rockets,HOU,Florida,College/University,1
+202720,Jon Leuer,2011,2,10,40,Draft,1610612749,Milwaukee,Bucks,MIL,Wisconsin,College/University,1
+202721,Darius Morris,2011,2,11,41,Draft,1610612747,Los Angeles,Lakers,LAL,Michigan,College/University,1
+202723,Malcolm Lee,2011,2,13,43,Draft,1610612741,Chicago,Bulls,CHI,California-Los Angeles,College/University,1
+202726,Andrew Goudelock,2011,2,16,46,Draft,1610612747,Los Angeles,Lakers,LAL,College of Charleston,College/University,1
+202728,Keith Benson,2011,2,18,48,Draft,1610612737,Atlanta,Hawks,ATL,Oakland,College/University,1
+202729,Josh Selby,2011,2,19,49,Draft,1610612763,Memphis,Grizzlies,MEM,Kansas,College/University,1
+202730,Lavoy Allen,2011,2,20,50,Draft,1610612755,Philadelphia,76ers,PHI,Temple,College/University,1
+202739,Jon Diebler,2011,2,21,51,Draft,1610612757,Portland,Trail Blazers,POR,Ohio State,College/University,0
+202731,Vernon Macklin,2011,2,22,52,Draft,1610612765,Detroit,Pistons,DET,Florida,College/University,1
+202732,DeAndre Liggins,2011,2,23,53,Draft,1610612753,Orlando,Magic,ORL,Kentucky,College/University,1
+202733,MIlan Macvan,2011,2,24,54,Draft,1610612739,Cleveland,Cavaliers,CLE,Maccabi Tel Aviv B.C. (Israel),Other Team/Club,0
+202624,Chukwudiebere Maduabum,2011,2,26,56,Draft,1610612747,Los Angeles,Lakers,LAL,Bakersfield Jam (D-League),Other Team/Club,0
+202736,Ater Majok,2011,2,28,58,Draft,1610612747,Los Angeles,Lakers,LAL,Gold Coast Blaze (Australia),Other Team/Club,0
+202737,Adam Hanga,2011,2,29,59,Draft,1610612759,San Antonio,Spurs,SAS,Alba Fehervar (Hungary),Other Team/Club,0
+203079,Dion Waiters,2012,1,4,4,Draft,1610612739,Cleveland,Cavaliers,CLE,Syracuse,College/University,1
+203081,Damian Lillard,2012,1,6,6,Draft,1610612757,Portland,Trail Blazers,POR,Weber State,College/University,1
+203082,Terrence Ross,2012,1,8,8,Draft,1610612761,Toronto,Raptors,TOR,Washington,College/University,1
+203083,Andre Drummond,2012,1,9,9,Draft,1610612765,Detroit,Pistons,DET,Connecticut,College/University,1
+203086,Meyers Leonard,2012,1,11,11,Draft,1610612757,Portland,Trail Blazers,POR,Illinois,College/University,1
+203087,Jeremy Lamb,2012,1,12,12,Draft,1610612745,Houston,Rockets,HOU,Connecticut,College/University,1
+203089,John Henson,2012,1,14,14,Draft,1610612749,Milwaukee,Bucks,MIL,North Carolina,College/University,1
+203090,Maurice Harkless,2012,1,15,15,Draft,1610612755,Philadelphia,76ers,PHI,St. John's (NY),College/University,1
+203091,Royce White,2012,1,16,16,Draft,1610612745,Houston,Rockets,HOU,Iowa State,College/University,1
+203093,Terrence Jones,2012,1,18,18,Draft,1610612745,Houston,Rockets,HOU,Kentucky,College/University,1
+203094,Andrew Nicholson,2012,1,19,19,Draft,1610612753,Orlando,Magic,ORL,St. Bonaventure,College/University,1
+203095,Evan Fournier,2012,1,20,20,Draft,1610612743,Denver,Nuggets,DEN,Poitiers Basket 86 (France),Other Team/Club,1
+203098,John Jenkins,2012,1,23,23,Draft,1610612737,Atlanta,Hawks,ATL,Vanderbilt,College/University,1
+203099,Jared Cunningham,2012,1,24,24,Draft,1610612739,Cleveland,Cavaliers,CLE,Oregon State,College/University,1
+203100,Tony Wroten,2012,1,25,25,Draft,1610612763,Memphis,Grizzlies,MEM,Washington,College/University,1
+203104,Marquis Teague,2012,1,29,29,Draft,1610612741,Chicago,Bulls,CHI,Kentucky,College/University,1
+203108,Bernard James,2012,2,3,33,Draft,1610612739,Cleveland,Cavaliers,CLE,Florida State,College/University,1
+203109,Jae Crowder,2012,2,4,34,Draft,1610612739,Cleveland,Cavaliers,CLE,Marquette,College/University,1
+203112,Quincy Acy,2012,2,7,37,Draft,1610612761,Toronto,Raptors,TOR,Baylor,College/University,1
+203113,Quincy Miller,2012,2,8,38,Draft,1610612743,Denver,Nuggets,DEN,Baylor,College/University,1
+203114,Khris Middleton,2012,2,9,39,Draft,1610612765,Detroit,Pistons,DET,Texas A&M,College/University,1
+203115,Will Barton,2012,2,10,40,Draft,1610612757,Portland,Trail Blazers,POR,Memphis,College/University,1
+203116,Tyshawn Taylor,2012,2,11,41,Draft,1610612757,Portland,Trail Blazers,POR,Kansas,College/University,1
+203117,Doron Lamb,2012,2,12,42,Draft,1610612749,Milwaukee,Bucks,MIL,Kentucky,College/University,1
+203118,Mike Scott,2012,2,13,43,Draft,1610612737,Atlanta,Hawks,ATL,Virginia,College/University,1
+203119,Kim English,2012,2,14,44,Draft,1610612765,Detroit,Pistons,DET,Missouri,College/University,1
+203120,Justin Hamilton,2012,2,15,45,Draft,1610612755,Philadelphia,76ers,PHI,Louisiana State,College/University,1
+203124,Kyle O'Quinn,2012,2,19,49,Draft,1610612753,Orlando,Magic,ORL,Norfolk State,College/University,1
+203125,Izzet Turkyilmaz,2012,2,20,50,Draft,1610612743,Denver,Nuggets,DEN,Banvit B.K. (Turkey),Other Team/Club,0
+203129,Tornike Shengelia,2012,2,24,54,Draft,1610612755,Philadelphia,76ers,PHI,Georgia,College/University,1
+203131,Tomislav Zubcic,2012,2,26,56,Draft,1610612761,Toronto,Raptors,TOR,KK Cibona (Croatia),Other Team/Club,0
+203132,Ilkan Karaman,2012,2,27,57,Draft,1610612751,Brooklyn,Nets,BKN,Pinar Karsiyaka (Turkey),Other Team/Club,0
+203134,Marcus Denmon,2012,2,29,59,Draft,1610612759,San Antonio,Spurs,SAS,Missouri,College/University,0
+203135,Robert Sacre,2012,2,30,60,Draft,1610612747,Los Angeles,Lakers,LAL,Gonzaga,College/University,1
+203461,Anthony Bennett,2013,1,1,1,Draft,1610612739,Cleveland,Cavaliers,CLE,Nevada-Las Vegas,College/University,1
+203506,Victor Oladipo,2013,1,2,2,Draft,1610612753,Orlando,Magic,ORL,Indiana,College/University,1
+203484,Kentavious Caldwell-Pope,2013,1,8,8,Draft,1610612765,Detroit,Pistons,DET,Georgia,College/University,1
+203468,CJ McCollum,2013,1,10,10,Draft,1610612757,Portland,Trail Blazers,POR,Lehigh,College/University,1
+203487,Michael Carter-Williams,2013,1,11,11,Draft,1610612755,Philadelphia,76ers,PHI,Syracuse,College/University,1
+203507,Giannis Antetokounmpo,2013,1,15,15,Draft,1610612749,Milwaukee,Bucks,MIL,Basket Zaragoza 2002 (Spain),Other Team/Club,1
+203471,Dennis Schroder,2013,1,17,17,Draft,1610612737,Atlanta,Hawks,ATL,Basketball Lowen Braunschweig (Germany),Other Team/Club,1
+203499,Shane Larkin,2013,1,18,18,Draft,1610612737,Atlanta,Hawks,ATL,Miami (FL),College/University,1
+203508,Sergey Karasev,2013,1,19,19,Draft,1610612739,Cleveland,Cavaliers,CLE,B.C. Zenit Saint Petersburg (Russia),Other Team/Club,1
+203503,Tony Snell,2013,1,20,20,Draft,1610612741,Chicago,Bulls,CHI,New Mexico,College/University,1
+203486,Mason Plumlee,2013,1,22,22,Draft,1610612751,Brooklyn,Nets,BKN,Duke,College/University,1
+203497,Rudy Gobert,2013,1,27,27,Draft,1610612743,Denver,Nuggets,DEN,Cholet Basket (France),Other Team/Club,1
+203520,Livio Jean-Charles,2013,1,28,28,Draft,1610612759,San Antonio,Spurs,SAS,ASVEL Basket (France),Other Team/Club,1
+203459,Allen Crabbe,2013,2,1,31,Draft,1610612739,Cleveland,Cavaliers,CLE,California,College/University,1
+203467,Carrick Felix,2013,2,3,33,Draft,1610612739,Cleveland,Cavaliers,CLE,Arizona State,College/University,1
+203477,Isaiah Canaan,2013,2,4,34,Draft,1610612745,Houston,Rockets,HOU,Murray State,College/University,1
+203318,Glen Rice,2013,2,5,35,Draft,1610612755,Philadelphia,76ers,PHI,Michigan,College/University,1
+203502,Tony Mitchell,2013,2,7,37,Draft,1610612765,Detroit,Pistons,DET,North Texas,College/University,1
+203481,Jeff Withey,2013,2,9,39,Draft,1610612757,Portland,Trail Blazers,POR,Kansas,College/University,1
+203511,Grant Jerrett,2013,2,10,40,Draft,1610612757,Portland,Trail Blazers,POR,Arizona,College/University,1
+203479,Jamaal Franklin,2013,2,11,41,Draft,1610612763,Memphis,Grizzlies,MEM,San Diego State,College/University,1
+203510,Pierre Jackson,2013,2,12,42,Draft,1610612755,Philadelphia,76ers,PHI,Baylor,College/University,1
+203495,Ricky Ledo,2013,2,13,43,Draft,1610612749,Milwaukee,Bucks,MIL,Providence,College/University,1
+203525,Marko Todorovic,2013,2,15,45,Draft,1610612757,Portland,Trail Blazers,POR,FC Barcelona Basquet (Spain),Other Team/Club,0
+203526,Raul Neto,2013,2,17,47,Draft,1610612737,Atlanta,Hawks,ATL,San Sebastian Gipuzkoa BC (Spain),Other Team/Club,1
+203527,Ryan Kelly,2013,2,18,48,Draft,1610612747,Los Angeles,Lakers,LAL,Duke,College/University,1
+203513,Erik Murphy,2013,2,19,49,Draft,1610612741,Chicago,Bulls,CHI,Florida,College/University,1
+203516,James Ennis III,2013,2,20,50,Draft,1610612737,Atlanta,Hawks,ATL,Long Beach State,College/University,1
+203528,Romero Osby,2013,2,21,51,Draft,1610612753,Orlando,Magic,ORL,Oklahoma,College/University,1
+203530,Joffrey Lauvergne,2013,2,25,55,Draft,1610612763,Memphis,Grizzlies,MEM,KK Partizan (Serbia),Other Team/Club,1
+203491,Peyton Siva,2013,2,26,56,Draft,1610612765,Detroit,Pistons,DET,Louisville,College/University,1
+203472,Deshaun Thomas,2013,2,28,58,Draft,1610612759,San Antonio,Spurs,SAS,Ohio State,College/University,1
+203533,Janis Timma,2013,2,30,60,Draft,1610612763,Memphis,Grizzlies,MEM,BK Ventspils (Latvia),Other Team/Club,0
+203952,Andrew Wiggins,2014,1,1,1,Draft,1610612739,Cleveland,Cavaliers,CLE,Kansas,College/University,1
+203953,Jabari Parker,2014,1,2,2,Draft,1610612749,Milwaukee,Bucks,MIL,Duke,College/University,1
+203954,Joel Embiid,2014,1,3,3,Draft,1610612755,Philadelphia,76ers,PHI,Kansas,College/University,1
+203932,Aaron Gordon,2014,1,4,4,Draft,1610612753,Orlando,Magic,ORL,Arizona,College/University,1
+203944,Julius Randle,2014,1,7,7,Draft,1610612747,Los Angeles,Lakers,LAL,Kentucky,College/University,1
+203901,Elfrid Payton,2014,1,10,10,Draft,1610612755,Philadelphia,76ers,PHI,Louisiana-Lafayette,College/University,1
+203926,Doug McDermott,2014,1,11,11,Draft,1610612743,Denver,Nuggets,DEN,Creighton,College/University,1
+203967,Dario Saric,2014,1,12,12,Draft,1610612753,Orlando,Magic,ORL,KK Cibona (Croatia),Other Team/Club,1
+203940,Adreian Payne,2014,1,15,15,Draft,1610612737,Atlanta,Hawks,ATL,Michigan State,College/University,1
+203994,Jusuf Nurkic,2014,1,16,16,Draft,1610612741,Chicago,Bulls,CHI,KK Cedevita (Croatia),Other Team/Club,1
+203914,Gary Harris,2014,1,19,19,Draft,1610612741,Chicago,Bulls,CHI,Michigan State,College/University,1
+203998,Bruno Caboclo,2014,1,20,20,Draft,1610612761,Toronto,Raptors,TOR,Esporte Clube Pinheiros (Brazil),Other Team/Club,1
+203919,Jordan Adams,2014,1,22,22,Draft,1610612763,Memphis,Grizzlies,MEM,California-Los Angeles,College/University,1
+203991,Clint Capela,2014,1,25,25,Draft,1610612745,Houston,Rockets,HOU,Elan Chalon (France),Other Team/Club,1
+203937,Kyle Anderson,2014,1,30,30,Draft,1610612759,San Antonio,Spurs,SAS,California-Los Angeles,College/University,1
+203996,Damien Inglis,2014,2,1,31,Draft,1610612749,Milwaukee,Bucks,MIL,Chorale Roanne Basket (France),Other Team/Club,1
+203909,KJ McDaniels,2014,2,2,32,Draft,1610612755,Philadelphia,76ers,PHI,Clemson,College/University,1
+203925,Joe Harris,2014,2,3,33,Draft,1610612739,Cleveland,Cavaliers,CLE,Virginia,College/University,1
+203948,Johnny O'Bryant III,2014,2,6,36,Draft,1610612749,Milwaukee,Bucks,MIL,Louisiana State,College/University,1
+203908,DeAndre Daniels,2014,2,7,37,Draft,1610612761,Toronto,Raptors,TOR,Connecticut,College/University,0
+203915,Spencer Dinwiddie,2014,2,8,38,Draft,1610612765,Detroit,Pistons,DET,Colorado,College/University,1
+203924,Jerami Grant,2014,2,9,39,Draft,1610612755,Philadelphia,76ers,PHI,Syracuse,College/University,1
+203999,Nikola Jokic,2014,2,11,41,Draft,1610612743,Denver,Nuggets,DEN,KK Mega Leks (Serbia),Other Team/Club,1
+203910,Nick Johnson,2014,2,12,42,Draft,1610612745,Houston,Rockets,HOU,Arizona,College/University,1
+204002,Edy Tavares,2014,2,13,43,Draft,1610612737,Atlanta,Hawks,ATL,CB Gran Canaria (Spain),Other Team/Club,1
+203893,Russ Smith,2014,2,17,47,Draft,1610612755,Philadelphia,76ers,PHI,Louisville,College/University,1
+203934,Lamar Patterson,2014,2,18,48,Draft,1610612749,Milwaukee,Bucks,MIL,Pittsburgh,College/University,1
+203946,Cameron Bairstow,2014,2,19,49,Draft,1610612741,Chicago,Bulls,CHI,New Mexico,College/University,1
+203995,Vasilije Micic,2014,2,22,52,Draft,1610612755,Philadelphia,76ers,PHI,KK Mega Leks (Serbia),Other Team/Club,1
+204009,Nemanja Dangubic,2014,2,24,54,Draft,1610612755,Philadelphia,76ers,PHI,KK Mega Leks (Serbia),Other Team/Club,0
+203906,Devyn Marble,2014,2,26,56,Draft,1610612743,Denver,Nuggets,DEN,Iowa,College/University,1
+203895,Jordan McRae,2014,2,28,58,Draft,1610612759,San Antonio,Spurs,SAS,Tennessee,College/University,1
+203904,Xavier Thames,2014,2,29,59,Draft,1610612761,Toronto,Raptors,TOR,San Diego State,College/University,0
+203928,Cory Jefferson,2014,2,30,60,Draft,1610612759,San Antonio,Spurs,SAS,Baylor,College/University,1
+1626156,D'Angelo Russell,2015,1,2,2,Draft,1610612747,Los Angeles,Lakers,LAL,Ohio State,College/University,1
+1626143,Jahlil Okafor,2015,1,3,3,Draft,1610612755,Philadelphia,76ers,PHI,Duke,College/University,1
+1626209,Mario Hezonja,2015,1,5,5,Draft,1610612753,Orlando,Magic,ORL,FC Barcelona Basquet (Spain),Other Team/Club,1
+1626144,Emmanuel Mudiay,2015,1,7,7,Draft,1610612743,Denver,Nuggets,DEN,Guangdong Southern Tigers (China),Other Team/Club,1
+1626169,Stanley Johnson,2015,1,8,8,Draft,1610612765,Detroit,Pistons,DET,Arizona,College/University,1
+1626162,Kelly Oubre Jr.,2015,1,15,15,Draft,1610612737,Atlanta,Hawks,ATL,Kansas,College/University,1
+1626173,Rashad Vaughn,2015,1,17,17,Draft,1610612749,Milwaukee,Bucks,MIL,Nevada-Las Vegas,College/University,1
+1626155,Sam Dekker,2015,1,18,18,Draft,1610612745,Houston,Rockets,HOU,Wisconsin,College/University,1
+1626153,Delon Wright,2015,1,20,20,Draft,1610612761,Toronto,Raptors,TOR,Utah,College/University,1
+1626171,Bobby Portis,2015,1,22,22,Draft,1610612741,Chicago,Bulls,CHI,Arkansas,College/University,1
+1626178,Rondae Hollis-Jefferson,2015,1,23,23,Draft,1610612757,Portland,Trail Blazers,POR,Arizona,College/University,1
+1626145,Tyus Jones,2015,1,24,24,Draft,1610612739,Cleveland,Cavaliers,CLE,Duke,College/University,1
+1626185,Jarell Martin,2015,1,25,25,Draft,1610612763,Memphis,Grizzlies,MEM,Louisiana State,College/University,1
+1626221,Nikola Milutinov,2015,1,26,26,Draft,1610612759,San Antonio,Spurs,SAS,KK Partizan (Serbia),Other Team/Club,0
+1626204,Larry Nance Jr.,2015,1,27,27,Draft,1610612747,Los Angeles,Lakers,LAL,Wyoming,College/University,1
+1626191,Chris McCullough,2015,1,29,29,Draft,1610612751,Brooklyn,Nets,BKN,Syracuse,College/University,1
+1626149,Montrezl Harrell,2015,2,2,32,Draft,1610612745,Houston,Rockets,HOU,Louisville,College/University,1
+1626148,Anthony Brown,2015,2,4,34,Draft,1610612747,Los Angeles,Lakers,LAL,Stanford,College/University,1
+1626195,Willy Hernangomez,2015,2,5,35,Draft,1610612755,Philadelphia,76ers,PHI,CB Sevilla (Spain),Other Team/Club,1
+1626158,Richaun Holmes,2015,2,7,37,Draft,1610612755,Philadelphia,76ers,PHI,Bowling Green,College/University,1
+1626199,Darrun Hilliard,2015,2,8,38,Draft,1610612765,Detroit,Pistons,DET,Villanova,College/University,1
+1626192,Pat Connaughton,2015,2,11,41,Draft,1610612751,Brooklyn,Nets,BKN,Notre Dame,College/University,1
+1626181,Norman Powell,2015,2,16,46,Draft,1610612749,Milwaukee,Bucks,MIL,California-Los Angeles,College/University,1
+1626222,Arturas Gudaitis,2015,2,17,47,Draft,1610612755,Philadelphia,76ers,PHI,BC Zalgiris (Lithuania),Other Team/Club,0
+1626226,Marcus Eriksson,2015,2,20,50,Draft,1610612737,Atlanta,Hawks,ATL,FC Barcelona Basquet (Spain),Other Team/Club,0
+1626227,Tyler Harvey,2015,2,21,51,Draft,1610612753,Orlando,Magic,ORL,Eastern Washington,College/University,0
+1626218,Sir'Dominic Pointer,2015,2,23,53,Draft,1610612739,Cleveland,Cavaliers,CLE,St. John's (NY),College/University,0
+1626215,Cady Lalanne,2015,2,25,55,Draft,1610612759,San Antonio,Spurs,SAS,Massachusetts,College/University,0
+1626230,Nikola Radicevic,2015,2,27,57,Draft,1610612743,Denver,Nuggets,DEN,CB Sevilla (Spain),Other Team/Club,0
+1626160,JP Tokoto,2015,2,28,58,Draft,1610612755,Philadelphia,76ers,PHI,North Carolina,College/University,1
+1626231,Dimitrios Agravanis,2015,2,29,59,Draft,1610612737,Atlanta,Hawks,ATL,Olympiacos B.C. (Greece),Other Team/Club,0
+1626232,Luka Mitrovic,2015,2,30,60,Draft,1610612755,Philadelphia,76ers,PHI,Red Star Belgrade (Serbia),Other Team/Club,0
+1627732,Ben Simmons,2016,1,1,1,Draft,1610612755,Philadelphia,76ers,PHI,Louisiana State,College/University,1
+1627742,Brandon Ingram,2016,1,2,2,Draft,1610612747,Los Angeles,Lakers,LAL,Duke,College/University,1
+1627750,Jamal Murray,2016,1,7,7,Draft,1610612743,Denver,Nuggets,DEN,Kentucky,College/University,1
+1627751,Jakob Poeltl,2016,1,9,9,Draft,1610612761,Toronto,Raptors,TOR,Utah,College/University,1
+1627748,Thon Maker,2016,1,10,10,Draft,1610612749,Milwaukee,Bucks,MIL,,,1
+1627756,Denzel Valentine,2016,1,14,14,Draft,1610612741,Chicago,Bulls,CHI,Michigan State,College/University,1
+1627823,Juancho Hernangomez,2016,1,15,15,Draft,1610612743,Denver,Nuggets,DEN,Movistar Estudiantes,Other Team/Club,1
+1627735,Wade Baldwin IV,2016,1,17,17,Draft,1610612763,Memphis,Grizzlies,MEM,Vanderbilt,College/University,1
+1627740,Henry Ellenson,2016,1,18,18,Draft,1610612765,Detroit,Pistons,DET,Marquette,College/University,1
+1627736,Malik Beasley,2016,1,19,19,Draft,1610612743,Denver,Nuggets,DEN,Florida State,College/University,1
+1627761,DeAndre' Bembry,2016,1,21,21,Draft,1610612737,Atlanta,Hawks,ATL,Saint Joseph's,College/University,1
+1627789,Timothe Luwawu-Cabarrot,2016,1,24,24,Draft,1610612755,Philadelphia,76ers,PHI,KK Mega Vizura,Other Team/Club,1
+1627788,Furkan Korkmaz,2016,1,26,26,Draft,1610612755,Philadelphia,76ers,PHI,Anadolu Efes S.K. (Turkey),Other Team/Club,1
+1627783,Pascal Siakam,2016,1,27,27,Draft,1610612761,Toronto,Raptors,TOR,New Mexico State,College/University,1
+1627749,Dejounte Murray,2016,1,29,29,Draft,1610612759,San Antonio,Spurs,SAS,Washington,College/University,1
+1627826,Ivica Zubac,2016,2,2,32,Draft,1610612747,Los Angeles,Lakers,LAL,KK Mega Vizura,Other Team/Club,1
+1627763,Malcolm Brogdon,2016,2,6,36,Draft,1610612749,Milwaukee,Bucks,MIL,Virginia,College/University,1
+1627778,Chinanu Onuaku,2016,2,7,37,Draft,1610612745,Houston,Rockets,HOU,Louisville,College/University,1
+1627757,Stephen Zimmerman,2016,2,11,41,Draft,1610612753,Orlando,Magic,ORL,Nevada-Las Vegas,College/University,1
+1627785,Isaiah Whitehead,2016,2,12,42,Draft,1610612751,Brooklyn,Nets,BKN,Seton Hall,College/University,1
+1627753,Zhou Qi,2016,2,13,43,Draft,1610612745,Houston,Rockets,HOU,Xinjiang Guanghui,Other Team/Club,1
+1627833,Isaia Cordinier,2016,2,14,44,Draft,1610612737,Atlanta,Hawks,ATL,Denain ASC Voltaire,Other Team/Club,0
+1627774,Jake Layman,2016,2,17,47,Draft,1610612753,Orlando,Magic,ORL,Maryland,College/University,1
+1627835,Paul Zipser,2016,2,18,48,Draft,1610612741,Chicago,Bulls,CHI,FC Bayern Muenchen,Other Team/Club,1
+1627771,Michael Gbinije,2016,2,19,49,Draft,1610612765,Detroit,Pistons,DET,Syracuse,College/University,1
+1627822,Petr Cornelie,2016,2,23,53,Draft,1610612743,Denver,Nuggets,DEN,Le Mans Sarthe Basket (France),Other Team/Club,1
+1627770,Kay Felder,2016,2,24,54,Draft,1610612737,Atlanta,Hawks,ATL,Oakland,High School,1
+1627772,Daniel Hamilton,2016,2,26,56,Draft,1610612743,Denver,Nuggets,DEN,Connecticut,College/University,1
+1627845,Wang Zhelin,2016,2,27,57,Draft,1610612763,Memphis,Grizzlies,MEM,Fujian,Other Team/Club,0
+1628365,Markelle Fultz,2017,1,1,1,Draft,1610612755,Philadelphia,76ers,PHI,Washington,College/University,1
+1628366,Lonzo Ball,2017,1,2,2,Draft,1610612747,Los Angeles,Lakers,LAL,California-Los Angeles,College/University,1
+1628371,Jonathan Isaac,2017,1,6,6,Draft,1610612753,Orlando,Magic,ORL,Florida State,College/University,1
+1628379,Luke Kennard,2017,1,12,12,Draft,1610612765,Detroit,Pistons,DET,Duke,College/University,1
+1628378,Donovan Mitchell,2017,1,13,13,Draft,1610612743,Denver,Nuggets,DEN,Louisville,College/University,1
+1628382,Justin Jackson,2017,1,15,15,Draft,1610612757,Portland,Trail Blazers,POR,North Carolina,College/University,1
+1628383,Justin Patton,2017,1,16,16,Draft,1610612741,Chicago,Bulls,CHI,Creighton,College/University,1
+1628391,D.J. Wilson,2017,1,17,17,Draft,1610612749,Milwaukee,Bucks,MIL,Michigan,College/University,1
+1628381,John Collins,2017,1,19,19,Draft,1610612737,Atlanta,Hawks,ATL,Wake Forest,College/University,1
+1628385,Harry Giles III,2017,1,20,20,Draft,1610612757,Portland,Trail Blazers,POR,Duke,College/University,1
+1628386,Jarrett Allen,2017,1,22,22,Draft,1610612751,Brooklyn,Nets,BKN,Texas,College/University,1
+1628384,OG Anunoby,2017,1,23,23,Draft,1610612761,Toronto,Raptors,TOR,Indiana,College/University,1
+1628394,Anzejs Pasecniks,2017,1,25,25,Draft,1610612753,Orlando,Magic,ORL,CB Gran Canaria (Spain),Other Team/Club,1
+1628403,Caleb Swanigan,2017,1,26,26,Draft,1610612757,Portland,Trail Blazers,POR,Purdue,College/University,1
+1628398,Kyle Kuzma,2017,1,27,27,Draft,1610612751,Brooklyn,Nets,BKN,Utah,College/University,1
+1628396,Tony Bradley,2017,1,28,28,Draft,1610612747,Los Angeles,Lakers,LAL,North Carolina,College/University,1
+1628401,Derrick White,2017,1,29,29,Draft,1610612759,San Antonio,Spurs,SAS,Colorado,College/University,1
+1628411,Wes Iwundu,2017,2,3,33,Draft,1610612753,Orlando,Magic,ORL,Kansas State,College/University,1
+1628397,Ivan Rabb,2017,2,5,35,Draft,1610612753,Orlando,Magic,ORL,California,College/University,1
+1628413,Jonah Bolden,2017,2,6,36,Draft,1610612755,Philadelphia,76ers,PHI,Red Star Belgrade (Serbia),Other Team/Club,1
+1628395,Jordan Bell,2017,2,8,38,Draft,1610612741,Chicago,Bulls,CHI,Oregon,College/University,1
+1628393,Jawun Evans,2017,2,9,39,Draft,1610612755,Philadelphia,76ers,PHI,Oklahoma State,College/University,1
+1628416,Tyler Dorsey,2017,2,11,41,Draft,1610612737,Atlanta,Hawks,ATL,Oregon,College/University,1
+1628392,Isaiah Hartenstein,2017,2,13,43,Draft,1610612745,Houston,Rockets,HOU,BC Zalgiris (Lithuania),Other Team/Club,1
+1628415,Dillon Brooks,2017,2,15,45,Draft,1610612745,Houston,Rockets,HOU,Oregon,College/University,1
+1628425,Sterling Brown,2017,2,16,46,Draft,1610612755,Philadelphia,76ers,PHI,Southern Methodist,College/University,1
+1628414,Sindarius Thornwell,2017,2,18,48,Draft,1610612749,Milwaukee,Bucks,MIL,South Carolina,College/University,1
+1628427,Vlatko Cancar,2017,2,19,49,Draft,1610612743,Denver,Nuggets,DEN,KK Mega Leks (Serbia),Other Team/Club,1
+1628406,Mathias Lessort,2017,2,20,50,Draft,1610612755,Philadelphia,76ers,PHI,Nanterre 92 (France),Other Team/Club,0
+1628420,Monte Morris,2017,2,21,51,Draft,1610612743,Denver,Nuggets,DEN,Iowa State,College/University,1
+1628426,Sasha Vezenkov,2017,2,27,57,Draft,1610612751,Brooklyn,Nets,BKN,FC Barcelona Basquet (Spain),Other Team/Club,1
+1628417,Jaron Blossomgame,2017,2,29,59,Draft,1610612759,San Antonio,Spurs,SAS,Clemson,College/University,1
+1628446,Alpha Kaba,2017,2,30,60,Draft,1610612737,Atlanta,Hawks,ATL,KK Mega Leks (Serbia),Other Team/Club,0
+1629029,Luka Doncic,2018,1,3,3,Draft,1610612737,Atlanta,Hawks,ATL,Real Madrid Baloncesto (Spain),Other Team/Club,1
+1628991,Jaren Jackson Jr.,2018,1,4,4,Draft,1610612763,Memphis,Grizzlies,MEM,Michigan State,College/University,1
+1628964,Mo Bamba,2018,1,6,6,Draft,1610612753,Orlando,Magic,ORL,Texas,College/University,1
+1628976,Wendell Carter Jr.,2018,1,7,7,Draft,1610612741,Chicago,Bulls,CHI,Duke,College/University,1
+1629012,Collin Sexton,2018,1,8,8,Draft,1610612739,Cleveland,Cavaliers,CLE,Alabama,College/University,1
+1628969,Mikal Bridges,2018,1,10,10,Draft,1610612755,Philadelphia,76ers,PHI,Villanova,College/University,1
+1629008,Michael Porter Jr.,2018,1,14,14,Draft,1610612743,Denver,Nuggets,DEN,Missouri,College/University,1
+1628978,Donte DiVincenzo,2018,1,17,17,Draft,1610612749,Milwaukee,Bucks,MIL,Villanova,College/University,1
+1629022,Lonnie Walker IV,2018,1,18,18,Draft,1610612759,San Antonio,Spurs,SAS,Miami (FL),College/University,1
+1628989,Kevin Huerter,2018,1,19,19,Draft,1610612737,Atlanta,Hawks,ATL,Maryland,College/University,1
+1628990,Chandler Hutchison,2018,1,22,22,Draft,1610612741,Chicago,Bulls,CHI,Boise State,College/University,1
+1629014,Anfernee Simons,2018,1,24,24,Draft,1610612757,Portland,Trail Blazers,POR,IMG Academy,High School,1
+1629021,Moritz Wagner,2018,1,25,25,Draft,1610612747,Los Angeles,Lakers,LAL,Michigan,College/University,1
+1629013,Landry Shamet,2018,1,26,26,Draft,1610612755,Philadelphia,76ers,PHI,Wichita State,College/University,1
+1629058,Dzanan Musa,2018,1,29,29,Draft,1610612751,Brooklyn,Nets,BKN,KK Cedevita (Croatia),Other Team/Club,1
+1629016,Omari Spellman,2018,1,30,30,Draft,1610612737,Atlanta,Hawks,ATL,Villanova,College/University,1
+1628975,Jevon Carter,2018,2,2,32,Draft,1610612763,Memphis,Grizzlies,MEM,West Virginia,College/University,1
+1628984,Devonte' Graham,2018,2,4,34,Draft,1610612737,Atlanta,Hawks,ATL,Kansas,College/University,1
+1628982,Melvin Frazier Jr.,2018,2,5,35,Draft,1610612753,Orlando,Magic,ORL,Tulane,College/University,1
+1629017,Khyri Thomas,2018,2,8,38,Draft,1610612755,Philadelphia,76ers,PHI,Creighton,College/University,1
+1629067,Isaac Bonga,2018,2,9,39,Draft,1610612755,Philadelphia,76ers,PHI,Fraport Skyliners (Germany),Other Team/Club,1
+1629066,Rodions Kurucs,2018,2,10,40,Draft,1610612751,Brooklyn,Nets,BKN,FC Barcelona Basquet (Spain),Other Team/Club,1
+1629020,Jarred Vanderbilt,2018,2,11,41,Draft,1610612753,Orlando,Magic,ORL,Kentucky,College/University,1
+1628971,Bruce Brown,2018,2,12,42,Draft,1610612765,Detroit,Pistons,DET,Miami (FL),College/University,1
+1628992,Justin Jackson,2018,2,13,43,Draft,1610612743,Denver,Nuggets,DEN,Maryland,College/University,0
+1628977,Hamidou Diallo,2018,2,15,45,Draft,1610612751,Brooklyn,Nets,BKN,Kentucky,College/University,1
+1629001,De'Anthony Melton,2018,2,16,46,Draft,1610612745,Houston,Rockets,HOU,Southern California,College/University,1
+1629004,Svi Mykhailiuk,2018,2,17,47,Draft,1610612747,Los Angeles,Lakers,LAL,Kansas,College/University,1
+1629002,Chimezie Metu,2018,2,19,49,Draft,1610612749,Milwaukee,Bucks,MIL,Southern California,College/University,1
+1629034,Ray Spalding,2018,2,26,56,Draft,1610612755,Philadelphia,76ers,PHI,Louisville,College/University,1
+1629118,Thomas Welsh,2018,2,28,58,Draft,1610612743,Denver,Nuggets,DEN,California-Los Angeles,College/University,1
+1628961,Kostas Antetokounmpo,2018,2,30,60,Draft,1610612755,Philadelphia,76ers,PHI,Dayton,College/University,1
+1629630,Ja Morant,2019,1,2,2,Draft,1610612763,Memphis,Grizzlies,MEM,Murray State,College/University,1
+1629631,De'Andre Hunter,2019,1,4,4,Draft,1610612747,Los Angeles,Lakers,LAL,Virginia,College/University,1
+1629636,Darius Garland,2019,1,5,5,Draft,1610612739,Cleveland,Cavaliers,CLE,Vanderbilt,College/University,1
+1629632,Coby White,2019,1,7,7,Draft,1610612741,Chicago,Bulls,CHI,North Carolina,College/University,1
+1629637,Jaxson Hayes,2019,1,8,8,Draft,1610612737,Atlanta,Hawks,ATL,Texas,College/University,1
+1629629,Cam Reddish,2019,1,10,10,Draft,1610612737,Atlanta,Hawks,ATL,Duke,College/University,1
+1629635,Sekou Doumbouya,2019,1,15,15,Draft,1610612765,Detroit,Pistons,DET,Limoges CSP (France),Other Team/Club,1
+1629643,Chuma Okeke,2019,1,16,16,Draft,1610612753,Orlando,Magic,ORL,Auburn,College/University,1
+1629638,Nickeil Alexander-Walker,2019,1,17,17,Draft,1610612751,Brooklyn,Nets,BKN,Virginia Tech,College/University,1
+1629677,Luka Samanic,2019,1,19,19,Draft,1610612759,San Antonio,Spurs,SAS,KK Olimpija (Slovenia),Other Team/Club,1
+1629660,Ty Jerome,2019,1,24,24,Draft,1610612755,Philadelphia,76ers,PHI,Virginia,College/University,1
+1629642,Nassir Little,2019,1,25,25,Draft,1610612757,Portland,Trail Blazers,POR,North Carolina,College/University,1
+1629685,Dylan Windler,2019,1,26,26,Draft,1610612739,Cleveland,Cavaliers,CLE,Belmont,College/University,1
+1629662,Mfiondu Kabengele,2019,1,27,27,Draft,1610612751,Brooklyn,Nets,BKN,Florida State,College/University,1
+1629640,Keldon Johnson,2019,1,29,29,Draft,1610612759,San Antonio,Spurs,SAS,Kentucky,College/University,1
+1629645,Kevin Porter Jr.,2019,1,30,30,Draft,1610612749,Milwaukee,Bucks,MIL,Southern California,College/University,1
+1629651,Nic Claxton,2019,2,1,31,Draft,1610612751,Brooklyn,Nets,BKN,Georgia,College/University,1
+1629035,Carsen Edwards,2019,2,3,33,Draft,1610612755,Philadelphia,76ers,PHI,Purdue,College/University,1
+1628981,Bruno Fernando,2019,2,4,34,Draft,1610612755,Philadelphia,76ers,PHI,Maryland,College/University,1
+1629712,Didi Louzada,2019,2,5,35,Draft,1610612737,Atlanta,Hawks,ATL,Sesi Franca (Brazil),Other Team/Club,1
+1629655,Daniel Gafford,2019,2,8,38,Draft,1610612741,Chicago,Bulls,CHI,Arkansas,College/University,1
+1629678,Admiral Schofield,2019,2,12,42,Draft,1610612755,Philadelphia,76ers,PHI,Tennessee,College/University,1
+1629676,Isaiah Roby,2019,2,15,45,Draft,1610612765,Detroit,Pistons,DET,Nebraska,College/University,1
+1629659,Talen Horton-Tucker,2019,2,16,46,Draft,1610612753,Orlando,Magic,ORL,Iowa State,College/University,1
+1629683,Quinndary Weatherspoon,2019,2,19,49,Draft,1610612759,San Antonio,Spurs,SAS,Mississippi State,College/University,1
+1629621,Marial Shayok,2019,2,24,54,Draft,1610612755,Philadelphia,76ers,PHI,Virginia,College/University,1
+1629608,Dewan Hernandez,2019,2,29,59,Draft,1610612761,Toronto,Raptors,TOR,Miami (FL),College/University,1
+1630172,Patrick Williams,2020,1,4,4,Draft,1610612741,Chicago,Bulls,CHI,Florida State,College/University,1
+1630171,Isaac Okoro,2020,1,5,5,Draft,1610612739,Cleveland,Cavaliers,CLE,Auburn,College/University,1
+1630168,Onyeka Okongwu,2020,1,6,6,Draft,1610612737,Atlanta,Hawks,ATL,Southern California,College/University,1
+1630165,Killian Hayes,2020,1,7,7,Draft,1610612765,Detroit,Pistons,DET,Ratiopharm Ulm (Germany),Other Team/Club,1
+1630170,Devin Vassell,2020,1,11,11,Draft,1610612759,San Antonio,Spurs,SAS,Florida State,College/University,1
+1630175,Cole Anthony,2020,1,15,15,Draft,1610612753,Orlando,Magic,ORL,North Carolina,College/University,1
+1630191,Isaiah Stewart,2020,1,16,16,Draft,1610612757,Portland,Trail Blazers,POR,Washington,College/University,1
+1630180,Saddiq Bey,2020,1,19,19,Draft,1610612751,Brooklyn,Nets,BKN,Villanova,College/University,1
+1630178,Tyrese Maxey,2020,1,21,21,Draft,1610612755,Philadelphia,76ers,PHI,Kentucky,College/University,1
+1630192,Zeke Nnaji,2020,1,22,22,Draft,1610612743,Denver,Nuggets,DEN,Arizona,College/University,1
+1630181,R.J. Hampton,2020,1,24,24,Draft,1610612749,Milwaukee,Bucks,MIL,Breakers (New Zealand),Other Team/Club,1
+1630183,Jaden McDaniels,2020,1,28,28,Draft,1610612747,Los Angeles,Lakers,LAL,Washington,College/University,1
+1630201,Malachi Flynn,2020,1,29,29,Draft,1610612761,Toronto,Raptors,TOR,San Diego State,College/University,1
+1630177,Theo Maledon,2020,2,4,34,Draft,1610612755,Philadelphia,76ers,PHI,ASVEL Basket (France),Other Team/Club,1
+1630189,Tyler Bey,2020,2,6,36,Draft,1610612755,Philadelphia,76ers,PHI,Colorado,College/University,1
+1630218,Robert Woodard II,2020,2,10,40,Draft,1610612763,Memphis,Grizzlies,MEM,Mississippi State,College/University,1
+1630200,Tre Jones,2020,2,11,41,Draft,1610612759,San Antonio,Spurs,SAS,Duke,College/University,1
+1630250,Marko Simonovic,2020,2,14,44,Draft,1610612741,Chicago,Bulls,CHI,KK Mega Leks (Serbia),Other Team/Club,1
+1629670,Jordan Nwora,2020,2,15,45,Draft,1610612749,Milwaukee,Bucks,MIL,Louisville,College/University,1
+1629604,CJ Elleby,2020,2,16,46,Draft,1610612757,Portland,Trail Blazers,POR,Washington State,College/University,1
+1630198,Isaiah Joe,2020,2,19,49,Draft,1610612755,Philadelphia,76ers,PHI,Arkansas,College/University,1
+1630219,Skylar Mays,2020,2,20,50,Draft,1610612737,Atlanta,Hawks,ATL,Louisiana State,College/University,1
+1630206,Jay Scrubb,2020,2,25,55,Draft,1610612751,Brooklyn,Nets,BKN,John A. Logan,College/University,1
+1630194,Paul Reed,2020,2,28,58,Draft,1610612755,Philadelphia,76ers,PHI,DePaul,College/University,1
+1630223,Jalen Harris,2020,2,29,59,Draft,1610612761,Toronto,Raptors,TOR,Nevada-Reno,College/University,1
+1630595,Cade Cunningham,2021,1,1,1,Draft,1610612765,Detroit,Pistons,DET,Oklahoma State,College/University,1
+1630224,Jalen Green,2021,1,2,2,Draft,1610612745,Houston,Rockets,HOU,Ignite (G League),Other Team/Club,1
+1630596,Evan Mobley,2021,1,3,3,Draft,1610612739,Cleveland,Cavaliers,CLE,Southern California,College/University,1
+1630567,Scottie Barnes,2021,1,4,4,Draft,1610612761,Toronto,Raptors,TOR,Florida State,College/University,1
+1630591,Jalen Suggs,2021,1,5,5,Draft,1610612753,Orlando,Magic,ORL,Gonzaga,College/University,1
+1630532,Franz Wagner,2021,1,8,8,Draft,1610612753,Orlando,Magic,ORL,Michigan,College/University,1
+1630563,Joshua Primo,2021,1,12,12,Draft,1610612759,San Antonio,Spurs,SAS,Alabama,College/University,1
+1630530,Trey Murphy III,2021,1,17,17,Draft,1610612763,Memphis,Grizzlies,MEM,Virginia,College/University,1
+1630552,Jalen Johnson,2021,1,20,20,Draft,1610612737,Atlanta,Hawks,ATL,Duke,College/University,1
+1630543,Isaiah Jackson,2021,1,22,22,Draft,1610612747,Los Angeles,Lakers,LAL,Kentucky,College/University,1
+1630586,Usman Garuba,2021,1,23,23,Draft,1610612745,Houston,Rockets,HOU,Madrid (ESP),College/University,1
+1630528,Josh Christopher,2021,1,24,24,Draft,1610612745,Houston,Rockets,HOU,Arizona State,College/University,1
+1630538,Bones Hyland,2021,1,26,26,Draft,1610612743,Denver,Nuggets,DEN,Virginia Commonwealth,College/University,1
+1630560,Cam Thomas,2021,1,27,27,Draft,1610612751,Brooklyn,Nets,BKN,Louisiana State,College/University,1
+1630531,Jaden Springer,2021,1,28,28,Draft,1610612755,Philadelphia,76ers,PHI,Tennessee,College/University,1
+1630225,Isaiah Todd,2021,2,1,31,Draft,1610612749,Milwaukee,Bucks,MIL,Ignite (G League),Other Team/Club,1
+1630554,Jason Preston,2021,2,3,33,Draft,1610612753,Orlando,Magic,ORL,Ohio,College/University,1
+1630550,JT Thor,2021,2,7,37,Draft,1610612765,Detroit,Pistons,DET,Auburn,College/University,1
+1630245,Ayo Dosunmu,2021,2,8,38,Draft,1610612741,Chicago,Bulls,CHI,Illinois,College/University,1
+1630580,Joe Wieskamp,2021,2,11,41,Draft,1610612759,San Antonio,Spurs,SAS,Iowa,College/University,1
+1630587,Isaiah Livers,2021,2,12,42,Draft,1610612765,Detroit,Pistons,DET,Michigan,College/University,1
+1630556,Kessler Edwards,2021,2,14,44,Draft,1610612751,Brooklyn,Nets,BKN,Pepperdine,College/University,1
+1630625,Dalano Banton,2021,2,16,46,Draft,1610612761,Toronto,Raptors,TOR,Nebraska,College/University,1
+1630525,David Johnson,2021,2,17,47,Draft,1610612761,Toronto,Raptors,TOR,Louisville,College/University,1
+1630536,Sharife Cooper,2021,2,18,48,Draft,1610612737,Atlanta,Hawks,ATL,Auburn,College/University,1
+1630681,Marcus Zegarowski,2021,2,19,49,Draft,1610612751,Brooklyn,Nets,BKN,Creighton,College/University,0
+1630196,Filip Petrusev,2021,2,20,50,Draft,1610612755,Philadelphia,76ers,PHI,KK Mega Leks (Serbia),Other Team/Club,1
+1630527,Brandon Boston Jr.,2021,2,21,51,Draft,1610612763,Memphis,Grizzlies,MEM,Kentucky,College/University,1
+1630568,Luka Garza,2021,2,22,52,Draft,1610612765,Detroit,Pistons,DET,Iowa,College/University,1
+1629646,Charles Bassey,2021,2,23,53,Draft,1610612755,Philadelphia,76ers,PHI,Western Kentucky,College/University,1
+1630564,RaiQuan Gray,2021,2,29,59,Draft,1610612751,Brooklyn,Nets,BKN,Florida State,College/University,1
+1631094,Paolo Banchero,2022,1,1,1,Draft,1610612753,Orlando,Magic,ORL,Duke,College/University,1
+1631095,Jabari Smith Jr.,2022,1,3,3,Draft,1610612745,Houston,Rockets,HOU,Auburn,College/University,1
+1631093,Jaden Ivey,2022,1,5,5,Draft,1610612765,Detroit,Pistons,DET,Purdue,College/University,1
+1631101,Shaedon Sharpe,2022,1,7,7,Draft,1610612757,Portland,Trail Blazers,POR,Kentucky,College/University,1
+1631110,Jeremy Sochan,2022,1,9,9,Draft,1610612759,San Antonio,Spurs,SAS,Baylor,College/University,1
+1630534,Ochai Agbaji,2022,1,14,14,Draft,1610612739,Cleveland,Cavaliers,CLE,Kansas,College/University,1
+1631100,AJ Griffin,2022,1,16,16,Draft,1610612737,Atlanta,Hawks,ATL,Duke,College/University,1
+1631106,Tari Eason,2022,1,17,17,Draft,1610612745,Houston,Rockets,HOU,Louisiana State,College/University,1
+1631207,Dalen Terry,2022,1,18,18,Draft,1610612741,Chicago,Bulls,CHI,Arizona State,College/University,1
+1631103,Malaki Branham,2022,1,20,20,Draft,1610612759,San Antonio,Spurs,SAS,Ohio State,College/University,1
+1631128,Christian Braun,2022,1,21,21,Draft,1610612743,Denver,Nuggets,DEN,Kansas,College/University,1
+1631117,Walker Kessler,2022,1,22,22,Draft,1610612763,Memphis,Grizzlies,MEM,Auburn,College/University,1
+1631223,David Roddy,2022,1,23,23,Draft,1610612755,Philadelphia,76ers,PHI,Colorado State,College/University,1
+1630699,MarJon Beauchamp,2022,1,24,24,Draft,1610612749,Milwaukee,Bucks,MIL,Ignite (G League),Other Team/Club,1
+1631104,Blake Wesley,2022,1,25,25,Draft,1610612759,San Antonio,Spurs,SAS,Notre Dame,College/University,1
+1631102,TyTy Washington Jr.,2022,1,29,29,Draft,1610612763,Memphis,Grizzlies,MEM,Kentucky,College/University,1
+1631216,Caleb Houstan,2022,2,2,32,Draft,1610612753,Orlando,Magic,ORL,Michigan,College/University,1
+1631132,Christian Koloko,2022,2,3,33,Draft,1610612761,Toronto,Raptors,TOR,Arizona,College/University,1
+1631108,Max Christie,2022,2,5,35,Draft,1610612747,Los Angeles,Lakers,LAL,Michigan State,College/University,1
+1630629,Gabriele Procida,2022,2,6,36,Draft,1610612757,Portland,Trail Blazers,POR,Fortitudo Pallacanestro Bologna (Italy),Other Team/Club,0
+1631113,Kennedy Chandler,2022,2,8,38,Draft,1610612759,San Antonio,Spurs,SAS,Tennessee,College/University,1
+1631215,Khalifa Diop,2022,2,9,39,Draft,1610612739,Cleveland,Cavaliers,CLE,CB Gran Canaria (Spain),Other Team/Club,0
+1631157,Ryan Rollins,2022,2,14,44,Draft,1610612737,Atlanta,Hawks,ATL,Toledo,College/University,1
+1631130,Ismael Kamagate,2022,2,16,46,Draft,1610612765,Detroit,Pistons,DET,Paris (France),Other Team/Club,0
+1631246,Vince Williams Jr.,2022,2,17,47,Draft,1610612763,Memphis,Grizzlies,MEM,Virginia Commonwealth,College/University,1
+1630600,Isaiah Mobley,2022,2,19,49,Draft,1610612739,Cleveland,Cavaliers,CLE,Southern California,College/University,1
+1631247,Luke Travers,2022,2,26,56,Draft,1610612739,Cleveland,Cavaliers,CLE,Perth Wildcats (Australia),Other Team/Club,0
+1631133,Jabari Walker,2022,2,27,57,Draft,1610612757,Portland,Trail Blazers,POR,Colorado,College/University,1
+1641705,Victor Wembanyama,2023,1,1,1,Draft,1610612759,San Antonio,Spurs,SAS,Metropolitans 92 (France),Other Team/Club,1
+1630703,Scoot Henderson,2023,1,3,3,Draft,1610612757,Portland,Trail Blazers,POR,Ignite (G League),Other Team/Club,1
+1641708,Amen Thompson,2023,1,4,4,Draft,1610612745,Houston,Rockets,HOU,Overtime Elite,Other Team/Club,1
+1641709,Ausar Thompson,2023,1,5,5,Draft,1610612765,Detroit,Pistons,DET,Overtime Elite,Other Team/Club,1
+1641710,Anthony Black,2023,1,6,6,Draft,1610612753,Orlando,Magic,ORL,Arkansas,College/University,1
+1641724,Jett Howard,2023,1,11,11,Draft,1610612753,Orlando,Magic,ORL,Michigan,College/University,1
+1641711,Gradey Dick,2023,1,13,13,Draft,1610612761,Toronto,Raptors,TOR,Kansas,College/University,1
+1641723,Kobe Bufkin,2023,1,15,15,Draft,1610612737,Atlanta,Hawks,ATL,Michigan,College/University,1
+1641720,Jalen Hood-Schifino,2023,1,17,17,Draft,1610612747,Los Angeles,Lakers,LAL,Indiana,College/University,1
+1641715,Cam Whitmore,2023,1,20,20,Draft,1610612745,Houston,Rockets,HOU,Villanova,College/University,1
+1641730,Noah Clowney,2023,1,21,21,Draft,1610612751,Brooklyn,Nets,BKN,Alabama,College/University,1
+1641727,Dariq Whitehead,2023,1,22,22,Draft,1610612751,Brooklyn,Nets,BKN,Duke,College/University,1
+1631200,Kris Murray,2023,1,23,23,Draft,1610612757,Portland,Trail Blazers,POR,Iowa,College/University,1
+1631204,Marcus Sasser,2023,1,25,25,Draft,1610612763,Memphis,Grizzlies,MEM,Houston,College/University,1
+1641762,James Nnaji,2023,2,1,31,Draft,1610612765,Detroit,Pistons,DET,FC Barcelona Basquet (Spain),Other Team/Club,0
+1631159,Leonard Miller,2023,2,3,33,Draft,1610612759,San Antonio,Spurs,SAS,Ignite (G League),Other Team/Club,1
+1641748,Andre Jackson Jr.,2023,2,6,36,Draft,1610612753,Orlando,Magic,ORL,Connecticut,College/University,1
+1641721,Maxwell Lewis,2023,2,10,40,Draft,1610612743,Denver,Nuggets,DEN,Pepperdine,College/University,1
+1641712,Rayan Rupert,2023,2,13,43,Draft,1610612757,Portland,Trail Blazers,POR,Breakers (New Zealand),Other Team/Club,1
+1631321,Sidy Cissoko,2023,2,14,44,Draft,1610612759,San Antonio,Spurs,SAS,Ignite (G League),Other Team/Club,1
+1641713,GG Jackson,2023,2,15,45,Draft,1610612763,Memphis,Grizzlies,MEM,South Carolina,College/University,1
+1641754,Seth Lundy,2023,2,16,46,Draft,1610612737,Atlanta,Hawks,ATL,Penn State,College/University,1
+1631340,Mojave King,2023,2,17,47,Draft,1610612747,Los Angeles,Lakers,LAL,Ignite (G League),Other Team/Club,0
+1641734,Emoni Bates,2023,2,19,49,Draft,1610612739,Cleveland,Cavaliers,CLE,Eastern Michigan,College/University,1
+1630592,Jalen Wilson,2023,2,21,51,Draft,1610612751,Brooklyn,Nets,BKN,Kansas,College/University,1
+1641844,Tarik Biberovic,2023,2,26,56,Draft,1610612763,Memphis,Grizzlies,MEM,Fenerbahce S.K. (Turkey),Other Team/Club,0
+1641753,Chris Livingston,2023,2,28,58,Draft,1610612749,Milwaukee,Bucks,MIL,Kentucky,College/University,1

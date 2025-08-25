@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signup Page</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 300px;
+    margin: 100px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    color: #666;
+  }
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5e72e4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  .login-options {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .login-options a {
+    text-decoration: none;
+    color: #5e72e4;
+  }
+  .back-to-home {
+    margin-top: 20px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="logo">
+  </div>
+  <h2>Sign up</h2>
+  {% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <script>
+      var messages = '{{ messages | safe }}';
+      for (var i=0; i<messages.length; i++) {
+        alert(messages[i]);
+      }
+    </script>
+  {% endif %}
+  {% endwith %}
+
+  <form action="/signup" method="post">
+    <div class="form-group">
+      <label for="user_name">Username</label>
+      <input type="text" id="user_name" name="user_name" placeholder="Your username" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="E.g. johndoe@email.com">
+    </div>
+    
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{8,}"
+        title="Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character."
+        required placeholder="Create a password">
+      <small>Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character.</small>
+    </div>
+
+    <div class="form-group">
+      <label for="confirm-password">Confirm Password</label>
+      <input type="password" id="confirm-password" name="confirm-password" placeholder="Repeat your password">
+    </div>
+    
+    <button type="submit" class="button">Signup</button>
+  </form>
+  <div class="login-options">
+    <p>Already have an account? <a href="login">Login here</a></p>
+  </div>
+
+  <div class="back-to-home">
+    <a href="/index">Back to Home</a>
+  </div>
+</div>
+<script>
+// Add JavaScript to verify the password and confirm password fields match
+document.querySelector('form').onsubmit = function(e) {
+  var password = document.getElementById('password').value;
+  var confirmPassword = document.getElementById('confirm-password').value;
+  if (password !== confirmPassword) {
+    e.preventDefault(); // Prevent form submission
+    alert('Passwords do not match!');
+  }
+};
+</script>
+</body>
+</html>

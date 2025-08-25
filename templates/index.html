@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index_styles.css') }}">
+    <title>NBA Player Table</title>
+</head>
+<body>
+
+<header>
+    <a href="/">
+        <img src="https://cdn.nba.com/logos/leagues/logo-nba.svg" alt="NBA Icon" width="50" height="50">
+    </a>
+    <nav>
+        <!-- <a href="#" class="center">Games</a> -->
+        <a href="/index" class="center">Players</a>
+        {% if current_user.is_authenticated %}
+            <a href="/logout" class="center login-button">Logout</a>
+        {% else %}
+            <a href="/login" class="center login-button">Login</a>
+        {% endif %}
+    </nav>
+</header>
+<div class="team-filter">
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <div class="flash-messages">
+        {% for message in messages %}
+          <script>
+            alert("{{ message }}");
+          </script>
+        {% endfor %}
+      </div>
+    {% endif %}
+    {% endwith %}
+    <label for="teamSelect">Filter by Team:</label>
+    <select id="teamSelect">
+        <option value="">All Teams</option>
+        <!-- Populate with all team options -->
+        <option value="GSW">GSW</option>
+        <option value="LAC">LAC</option>
+        <option value="LAL">LAL</option>
+        <option value="PHX">PHX</option>
+        <option value="SAC">SAC</option>
+        <option value="DEN">DEN</option>
+        <option value="MIN">MIN</option>
+        <option value="OKC">OKC</option>
+        <option value="POR">POR</option>
+        <option value="UTA">UTA</option>
+        <option value="DAL">DAL</option>
+        <option value="HOU">HOU</option>
+        <option value="MEM">MEM</option>
+        <option value="NOP">NOP</option>
+        <option value="SAS">SAS</option>
+        <option value="ATL">ATL</option>
+        <option value="BKN">BKN</option>
+        <option value="BOS">BOS</option>
+        <option value="CHA">CHA</option>
+        <option value="CHI">CHI</option>
+        <option value="CLE">CLE</option>
+        <option value="DET">DET</option>
+        <option value="IND">IND</option>
+        <option value="MIA">MIA</option>
+        <option value="MIL">MIL</option>
+        <option value="NYK">NYK</option>
+        <option value="ORL">ORL</option>
+        <option value="PHI">PHI</option>
+        <option value="TOR">TOR</option>
+        <option value="WAS">WAS</option>        
+    </select>
+</div>
+<div class="team-filter">
+    <label for="followFilter">Show Followed Players Only</label>
+    <input type="checkbox" id="followFilter" onchange="displayPlayers(1, currentTeamFilter)">
+</div>
+{% if current_user.is_authenticated %}
+<div class="team-filter">
+    <button onclick="openAddPlayerPopup()">Add Player</button>
+    <div id="addPlayerPopup" style="display:none;">
+        <form id="addPlayerForm">
+            <input type="number" id="person_id" name="person_id" placeholder="person ID" required>
+            <input type="text" id="player_name" name="player_name" placeholder="Player Name" required>
+            <input type="text" id="position" name="position" placeholder="Position" required>
+            <input type="text" id="height" name="height" placeholder="Height" required>
+            <input type="text" id="weight" name="weight" placeholder="Weight" required>
+            <input type="text" id="last_attended" name="last_attended" placeholder="Last Attended" required>
+            <input type="text" id="country" name="country" placeholder="Country" required>
+            <input type="number" id="team_id" name="team_id" placeholder="Team ID" required>
+            <input type="text" id="team" name="team" placeholder="Team" required>
+            <input type="number" id="pts" name="pts" placeholder="Points Per Game" required>
+            <input type="number" id="dreb" name="dreb" placeholder="Defensive Rebounds" required>
+            <input type="number" id="ast" name="ast" placeholder="Assists" required>
+            <input type="number" id="gp" name="gp" placeholder="Games Played" required>
+            <button type="button" onclick="submitPlayer(event)">Submit</button>
+        </form>
+        <button onclick="closeAddPlayerPopup()">Close</button>
+    </div>
+    <button onclick="openQueryPopup()">SQL query</button>
+    <div id="queryPopup" style="display:none;">
+        <form id="queryForm" action="/query" method="POST">
+            <textarea id="query" name="query" placeholder="Enter your SQL query here" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <button onclick="closeQueryPopup()">Close</button>
+    </div>
+</div>
+{% endif %}
+<table id="playerTable">
+    <thead>
+        <tr>
+            <th>Player Name</th>
+            <th>Team</th>
+            <th>Edit (Login required)</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody">
+        <!-- Player rows will be added dynamically here -->
+    </tbody>
+</table>
+
+<div id="pagination"></div>
+<script>
+    const playersPerPage = 15; // Number of players to display per page
+
+    // Get player data from the HTML template
+    let players = '{{player_data | tojson | safe}}';
+    let is_authenticated = '{{ is_authenticated }}' === 'True';
+    players = JSON.parse(players);
+
+    let currentTeamFilter = '';
+
+    document.getElementById('teamSelect').addEventListener('change', function(event) {
+        currentTeamFilter = event.target.value;
+        displayPlayers(1, currentTeamFilter);
+        displayPagination(currentTeamFilter);
+    });
+    let followedPlayersFromSession = '{{ followed_players | tojson | safe }}';
+    function displayPlayers(page, team = '') {
+        const tableBody = document.getElementById('tableBody');
+        tableBody.innerHTML = '';
+        const followFilter = document.getElementById('followFilter').checked;
+        let playersToDisplay = players;
+        if (team) {
+            playersToDisplay = playersToDisplay.filter(player => player[1] === team);
+        }
+        if (followFilter) {
+        playersToDisplay = playersToDisplay.filter(player => followedPlayersFromSession.includes(player[2]));
+        }
+
+        const startIndex = (page - 1) * playersPerPage;
+        const endIndex = startIndex + playersPerPage;
+        const playersSlice = playersToDisplay.slice(startIndex, endIndex);
+
+        for (let i = 0; i < playersSlice.length; i++) { // Use playersSlice here, not playersToDisplay
+            const player = playersSlice[i];
+            const playerId = player[2];
+            const row = document.createElement('tr');
+
+            let editButtonHTML = '';
+            if (is_authenticated) {
+                editButtonHTML = `<button onclick="openEditPopup(${playerId})">Edit</button>`;
+            }
+
+            row.innerHTML = `
+                <td>
+                    <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/${playerId}.png" alt="${player[0]} Image" style="height:40px; width:40px; margin-right:10px; vertical-align:middle; border-radius:50%;">
+                    <a href="/player_stats/${playerId}">${player[0]}</a>
+                </td>
+                <td>${player[1]}</td>
+                <td>
+                    ${editButtonHTML}
+                </td>
+            `;
+            tableBody.appendChild(row);
+        }
+    }
+
+    function displayPagination(team = '') {
+        const totalPlayers = team ? players.filter(player => player[1] === team).length : players.length;
+        const totalPages = Math.ceil(totalPlayers / playersPerPage);
+
+        const pagination = document.getElementById('pagination');
+        pagination.innerHTML = '';
+
+        for (let i = 1; i <= totalPages; i++) {
+            const pageLink = document.createElement('a');
+            pageLink.href = '#';
+            pageLink.classList.add('page-link');
+            pageLink.textContent = i;
+
+            // Use an IIFE (Immediately Invoked Function Expression) to correctly bind the current index value 'i' and 'currentTeamFilter'
+            (function(index) {
+                pageLink.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    displayPlayers(index, currentTeamFilter);
+                });
+            })(i);
+
+            pagination.appendChild(pageLink);
+        }
+    }
+
+    function openEditPopup(playerId) {
+        const player = players.find(p => p[2] === playerId);
+        if (player) {
+            // Fill in the form fields with current data
+            document.getElementById('editPlayerName').value = player[0];
+            document.getElementById('editTeamName').value = player[1];
+            document.getElementById('editPlayerId').value = playerId;
+            document.getElementById('editTeamID').value = player[3];
+
+            // Show the popup
+            document.getElementById('editPopup').style.display = 'block';
+        }
+    }
+
+    // Initialize display
+    displayPlayers(1, currentTeamFilter);
+    displayPagination(currentTeamFilter);
+</script>
+<div id="editPopup" style="display:none;">
+    <div id="editPopupContent">
+        <!-- Close button -->
+        <button type="button" onclick="closeEditPopup()" id="closePopupButton">Close</button>
+        <form id="editForm">
+            <input type="hidden" id="editPlayerId" />
+            <input type="hidden" id="editTeamID" />
+            <label for="editPlayerName">Player Name:</label>
+            <input type="text" id="editPlayerName" />
+            <label for="editTeamName">Team Name:</label>
+            <input type="text" id="editTeamName" />
+            <button type="button" onclick="savePlayer()">Save</button>
+            <button type="button" onclick="deletePlayer()">Delete</button>
+        </form>
+    </div>
+</div>
+<script>
+    function savePlayer() {
+        // Get the updated data from the form
+        const playerId = document.getElementById('editPlayerId').value;
+        const playerName = document.getElementById('editPlayerName').value;
+        const teamName = document.getElementById('editTeamName').value;
+        const teamId = document.getElementById('editTeamID').value;
+
+        // Hide the popup
+        document.getElementById('editPopup').style.display = 'none';
+
+        // Send an AJAX request to your server endpoint for updating the data
+        fetch('/update_player', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                playerId: playerId,
+                playerName: playerName,
+                teamId: teamId,
+                teamName: teamName
+            })
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            // Handle response data
+            console.log(data);
+            // Provide feedback to the user
+            if (data.success) {
+                alert('Player data updated successfully!');
+                // Reload or update the table to show the new data
+            } else {
+                alert('Failed to update player data: ' + data.error);
+            }
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+            alert('An error occurred while updating player data. Please try again later.');
+        });
+    }
+    function deletePlayer() {
+        // Get the updated data from the form
+        const playerId = document.getElementById('editPlayerId').value;
+
+        // Hide the popup
+        document.getElementById('editPopup').style.display = 'none';
+
+        // Send an AJAX request to your server endpoint for updating the data
+        fetch('/delete_player', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                playerId: playerId
+            })
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            // Handle response data
+            console.log(data);
+            // Provide feedback to the user
+            if (data.success) {
+                alert('Player data updated successfully!');
+                // Reload or update the table to show the new data
+            } else {
+                alert('Failed to update player data: ' + data.error);
+            }
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+            alert('An error occurred while updating player data. Please try again later.');
+        });
+    }
+    function closeEditPopup() {
+        document.getElementById('editPopup').style.display = 'none';
+    }
+    function openAddPlayerPopup() {
+    document.getElementById('addPlayerPopup').style.display = 'block';
+    }
+    function closeAddPlayerPopup() {
+        document.getElementById('addPlayerPopup').style.display = 'none';
+    }
+    function openQueryPopup(){
+        document.getElementById('queryPopup').style.display = 'block';
+    }
+    function closeQueryPopup(){
+        document.getElementById('queryPopup').style.display = 'none';
+    }
+    function submitPlayer(event) {
+    event.preventDefault();  // Prevent the default form submission which reloads the page
+
+    const form = document.getElementById('addPlayerForm');
+    const formData = new FormData(form);
+
+    fetch('/add_player', {
+        method: 'POST',
+        body: formData  // FormData will correctly handle setting the Content-Type including the boundary
+    })
+    .then(response => {
+        if (!response.ok) throw new Error('Failed to add player');
+        return response.json();
+    })
+    .then(data => {
+        alert('Player added successfully!');
+        closeAddPlayerPopup();
+        // Optionally refresh the page or update the UI here
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Error adding player: ' + error.message);
+    });
+    }
+    function submitQuery(event) {
+            event.preventDefault(); // Prevent default form submission
+            const form = document.getElementById('queryForm');
+            const formData = new FormData(form);
+            
+            fetch('/query', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if(data.error) {
+                    throw new Error(data.error);
+                }
+                console.log('Query results:', data);
+                alert('Query executed successfully!');
+                closeQueryPopup();
+                // Refresh page or update UI here
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error executing query: ' + error.message);
+            });
+        }
+</script>
+</body>
+</html>

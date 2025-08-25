@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Player Card - {{ player_stat[0] }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        :root {
+            --font-primary: 'Arial', 'Roboto', 'sans-serif';
+            --spacing-small: 5px;
+            --spacing-medium: 10px;
+            --spacing-large: 20px;
+            --red-dark: #8B0000;
+            --red-light: #C0111F;
+            --yellow: #ffcc00;
+            --white: #ffffff;
+            --black: #000000;
+            --gray: #8B0000;
+        }
+
+        body {
+            font-family: var(--font-primary);
+            background-color: var(--red-dark);
+            color: var(--white);
+            margin: 0;
+            padding: var(--spacing-medium);
+            line-height: 1.6;
+        }
+
+        .player-card {
+            max-width: 900px;
+            margin: var(--spacing-medium) auto;
+            background-color: var(--red-light);
+            padding: var(--spacing-large);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            transition: all 0.2s ease-in-out;
+
+        }
+
+        .player-header {
+            text-align: center;
+            margin-bottom: var(--spacing-medium);
+        }
+
+        .name-and-logo {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-bottom: var(--spacing-small);
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .player-pic {
+            height: 200px;
+            width: auto;
+            margin-right: var(--spacing-small);
+            z-index: 1;
+            margin-bottom: -100px;
+            position: relative;
+            left: -10px;
+        }
+
+        .team-logo {
+            height: 100px;
+            width: auto;
+            margin-right: var(--spacing-small);
+            z-index: 1;
+            position: relative;
+            top: -40px;
+            right: -80px
+                /* Adjust this value to position the team logo */
+        }
+
+        .team-logo-watermark {
+            height: 290px;
+            width: auto;
+            margin: 0px;
+            opacity: 0.1;
+            z-index: 0;
+        }
+
+        .player-header h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: var(--yellow);
+        }
+
+        .position {
+            margin-bottom: -30px;
+            margin-left: 50px;
+            text-align: left
+        }
+
+        .player-stats {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            text-align: center;
+            margin-bottom: var(--spacing-medium);
+        }
+
+        .player-stats div {
+            flex: 1;
+            min-width: 100px;
+            margin: var(--spacing-small);
+            padding: var(--spacing-medium);
+            background-color: var(--red-dark);
+            border-radius: 5px;
+        }
+
+        .stat {
+            font-size: 2.0em;
+            font-weight: bold;
+            color: var(--yellow);
+        }
+
+        .label {
+            font-size: 1.2em;
+            color: var(--white);
+            margin-top: var(--spacing-small);
+        }
+
+        .player-info {
+            background-color: var(--gray);
+            opacity: 0.9;
+            padding: var(--spacing-large);
+            border-radius: 5px;
+            color: var(--white);
+        }
+
+        .player-info div {
+            margin-bottom: var(--spacing-small);
+            font-size: 1.2em;
+        }
+
+        .follow-button {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: var(--spacing-medium);
+            background-color: var(--yellow);
+            color: var(--black);
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+
+        .follow-button:hover {
+            background-color: var(--red-dark);
+            color: var(--yellow);
+        }
+        .back-button {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        /* Hover effect for the button */
+        .back-button:hover {
+            background-color: #555;
+        }
+        /* Add responsiveness */
+        @media (max-width: 768px) {
+            .player-header h1 {
+                font-size: 2em;
+            }
+
+            .player-stats div {
+                min-width: 100%;
+                margin-bottom: var(--spacing-small);
+            }
+
+            .team-logo {
+                margin: 0 auto var(--spacing-small);
+                width: 300px;
+                height: 300px;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="player-card">
+        <div class="player-header">
+            <a href="/" class="back-button"><i class="fas fa-arrow-left"></i> Back to Home</a>
+            <div class="name-and-logo">
+                <img src="https://cdn.nba.com/logos/nba/{{ player_stat[1] }}/primary/L/logo.svg" alt="None" class="team-logo-watermark">
+                <img src="https://cdn.nba.com/logos/nba/{{ player_stat[1] }}/primary/L/logo.svg" alt="None" class="team-logo"
+                    style="margin-left: -300px;">
+                <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/{{ player_stat[-7] }}.png" alt="None" class="player-pic">
+                <div class="player-postion">
+                    <div class="stack" style="display: block;">
+                        <div>
+                            <p class="position"> {{ player_stat[2] }} | {{ player_stat[-5] }} </p>
+                        </div>
+                        <div>
+                            <h1 class="first-name" style="margin-left:50px; margin-bottom: -25px; text-align : left;">
+                                {{ player_stat[0].split()[0].upper() }}</h1>
+                        </div>
+                        <div>
+                            <h1 class="last-name" style="margin-left:50px; margin-top: -25px; text-align : left;">{{ player_stat[0].split()[1].upper() }}
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="player-stats">
+            <div style="padding: 20px;">
+                <div class="stat" , style="padding: 0px;">{{ (player_stat[28] / player_stat[4]) | round(1) }}</div>
+                <div class="label" , style="padding: 0px;">PPG</div>
+            </div>
+            <div style="padding: 20px;">
+                <div class="stat" , style="padding: 0px;">{{ (player_stat[19] / player_stat[4]) | round(1) }}</div>
+                <div class="label" , style="padding: 0px;">RPG</div>
+            </div>
+            <div style="padding: 20px;">
+                <div class="stat" , style="padding: 0px;">{{ (player_stat[21] / player_stat[4]) | round(1) }}</div>
+                <div class="label" , style="padding: 0px;">APG</div>
+            </div>
+        </div>
+        <div class="player-info">
+            <div>Height: {{ player_stat[-4][1:] }}</div>
+            <div>Weight: {{ player_stat[-3] }} lb</div>
+            <div>Country: {{ player_stat[-1] }}</div>
+            <div>Last Attended: {{ player_stat[-2] }}</div>
+            <input type="hidden" name="person_id" value="{{ player_stat[-7] }}">
+            <button class="follow-button" onclick="followUnfollowPlayer('{{ player_stat[-7] }}')">
+                {{ 'UNFOLLOW' if is_followed else 'FOLLOW' }}
+            </button>
+        </div>
+    </div>
+    <script>
+        function followUnfollowPlayer(playerId) {
+            fetch('/is_followed/' + playerId, {
+                method: 'GET'
+            }).then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                isFollowed = data.is_followed;
+            })
+            const action = isFollowed ? 'unfollow_player' : 'follow_player';
+            // alert('/' + action + '/' + playerId);
+            // alert(isFollowed)
+            fetch('/' + action + '/' + playerId, {
+                method: 'POST'
+            }).then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.success) {
+                    // Toggle the isFollowed state
+                    isFollowed = !isFollowed;
+                    const followButton = document.querySelector('.follow-button');
+                    followButton.textContent = isFollowed ? 'UNFOLLOW' : 'FOLLOW';
+                    // Update onclick to toggle the state on subsequent clicks
+                    followButton.setAttribute('onclick', `followUnfollowPlayer('${playerId}', ${isFollowed})`);
+                    alert(isFollowed ? 'You are now following this player.':'You have unfollowed this player.' );
+                } else {
+                    alert('Failed to update follow status.');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Failed to process the request.');
+            });
+            return false; // Prevent form submission and page reload
+        }
+    </script>
+</body>
+</html>

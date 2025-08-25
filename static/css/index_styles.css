@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px; /* Add padding for spacing */
+    display: flex; /* Make header flex container */
+    justify-content: space-between; /* Space content evenly */
+    align-items: center; /* Center content vertically */
+}
+
+header img {
+    width: 50px; /* Adjust logo size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+nav {
+    display: flex; /* Make navigation flex container */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px; /* Add space between links */
+}
+
+nav a:last-child {
+    margin-right: 0; /* Remove margin from last link */
+}
+
+nav a.login-button {
+    background-color: blue; /* Set the background color to blue */
+    color: #fff; /* Set the text color to white */
+    padding: 5px 10px; /* Reduce padding for a smaller button */
+    border-radius: 3px; /* Rounded corners for the button */
+    font-size: 0.8em; /* Smaller font size */
+    font-weight: bold; /* Makes the font bold */
+    margin-left: 10px; /* Add space between the login button and the other links */
+    text-decoration: none; /* No underline */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+nav a.login-button:hover {
+    background-color: darkblue; /* Darker blue on hover for a visual effect */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #fff; /* Add border to the table */
+    table-layout: fixed;
+    max-width: 60%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    min-width: 120px;
+    font-size: 0.9em;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+th:first-child, td:first-child {
+    width: 50%;
+}
+
+th:last-child, td:last-child {
+    width: 50%;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+#pagination a {
+    margin: 0 5px; /* This adds space between your page numbers */
+    text-decoration: none; /* Removes the underline from links */
+    /* Add further styles here as needed, for example: */
+    color: #000;
+    font-size: 16px;
+}
+#editPopup {
+    position: fixed; /* Stay in place */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+#editPopupContent {
+    position: relative; /* This will contain the absolute-positioned close button */
+    /* Other styles for padding, background, etc. */
+}
+#closePopupButton {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: none;
+    background: #ccc;
+    color: #333;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#closePopupButton:hover {
+    background: #bbb;
+}
+#editForm {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    z-index: 1001; /* Above the overlay */
+}
+#playerTable th, #playerTable td {
+    padding: 8px; /* Adjust the padding as needed */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+#playerTable {
+    width: 100%; /* Ensure table takes full width */
+    border-collapse: collapse; /* Collapse borders */
+    table-layout: auto; /* Adjust this as needed */
+}
+#playerTable th:nth-child(3), #playerTable td:nth-child(3) {
+    width: 100px; /* Assign more width to Edit column if necessary */
+}
+#playerTable th:last-child, #playerTable td:last-child {
+    min-width: 150px; /* Set a minimum width for the last column */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+#playerTable th:last-child {
+    text-align: center; /* Center-align the header text */
+}
+
+#editPopup button[aria-label="Close"] {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: none;
+    background: #ccc;
+    color: #333;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#editPopup button[aria-label="Close"]:hover {
+    background: #bbb;
+}
+#addPlayerPopup {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: index;
+}
+.follow-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: var(--spacing-medium);
+    background-color: var(--yellow);
+    color: var(--black);
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
