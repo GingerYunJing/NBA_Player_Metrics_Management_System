@@ -4,6 +4,9 @@
 
 This project provides a modern web interface for user/admin to interact with NBA player statistics, draft information, and team data, complete with user authentication, player management tools, and real-time data querying capabilities.
 
+### Video Demo
+[NBA Player Metrics Management System](https://www.youtube.com/watch?v=-hzMEILnQkA)
+
 ## Features
 
 - **Player Management**: View, add, edit, and delete NBA players
